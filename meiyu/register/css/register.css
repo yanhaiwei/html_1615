@@ -1,0 +1,142 @@
+.register {
+  width: 100%;
+  height: 610px;
+  position: relative;
+}
+.register img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.register .register_main {
+  width: 944px;
+  height: 372px;
+  background-color: #fff;
+  padding: 14px 8px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.register .register_main img {
+  width: 386px;
+  height: 374px;
+  display: block;
+  float: left;
+}
+.register .register_main form {
+  display: block;
+  float: right;
+  height: 302px;
+  width: 500px;
+  padding-left: 50px;
+  padding-top: 70px;
+}
+.register .register_main form #registerphone {
+  width: 440px;
+  height: 50px;
+  margin-bottom: 28px;
+}
+.register .register_main form #testcode {
+  position: relative;
+  width: 440px;
+  height: 50px;
+}
+.register .register_main form #testcode .ltestcode {
+  width: 160px;
+  height: 48px;
+  border: 1px solid #e4e4e4;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 4px;
+}
+.register .register_main form #testcode .ltestcode a {
+  display: block;
+  width: inherit;
+  height: inherit;
+}
+.register .register_main form #testcode .ltestcode a img {
+  display: block;
+  height: 48px;
+  width: 100px;
+  float: left;
+}
+.register .register_main form #testcode .ltestcode a span {
+  display: block;
+  width: 60px;
+  height: inherit;
+  background: url(../img/refresh.png) no-repeat center;
+  float: right;
+}
+.register .register_main form input[type=submit] {
+  display: block;
+  height: 50px;
+  width: 440px;
+  border-radius: 4px;
+  background-color: #d93636;
+  border: 1px solid #d93636;
+  margin-top: 40px;
+  font-size: 26px;
+  color: #fff;
+}
+.register .register_main form .prompt {
+  width: 440px;
+  height: 50px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 50px;
+}
+.register .register_main form .prompt span {
+  color: #d93636;
+}
+.register .register_main .xlogintext {
+  height: 50px;
+  position: relative;
+}
+.register .register_main .xlogintext .loginicon {
+  display: inline-block;
+  width: 47px;
+  height: 49px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-right: 1px solid #e4e4e4;
+  margin-top: 1px;
+}
+.register .register_main .xlogintext .loginaccount {
+  background: url(../img/phone.png) no-repeat center;
+}
+.register .register_main .xlogintext .loginrandom {
+  background: url(../img/suiji.png) no-repeat center;
+}
+.register .register_main .xlogintext i {
+  display: block;
+  width: 70px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  position: absolute;
+  left: 60px;
+}
+.register .register_main .xlogintext .inputext {
+  display: block;
+  width: 310px;
+  height: 48px;
+  border: 1px solid #e4e4e4;
+  padding-left: 130px;
+  border-radius: 4px;
+}
+.register .register_main .xlogintext .xtestcode {
+  width: 140px;
+}
+.register .register_main .xlogintext .logintip {
+  display: block;
+  height: 28px;
+  line-height: 28px;
+  font-size: 12px;
+  color: #d93636;
+}
+/*# sourceMappingURL=register.css.map */

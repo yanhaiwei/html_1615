@@ -1,0 +1,88 @@
+// JavaScript Document
+
+$(function(){
+	//首页banner层轮播
+	$('#owl-demo').owlCarousel({
+		items: 1,
+		navigation: true,
+		navigationText: ["上一个","下一个"],
+		autoPlay: true,
+		stopOnHover: true,
+		itemsDesktop: 700,
+		itemsDesktopSmall: 700,
+		itemsTablet: 1
+	}).hover(function(){
+		$('.owl-buttons').show();
+	}, function(){
+		$('.owl-buttons').hide();
+	});
+
+	/*首页banner从上往下效果*/
+	$('.banner_left').animate({top:'27px'},800).animate({top:'20px'},200).animate({top:'27px'},200);
+
+	
+	/*进度条*/
+	//processerbar();
+	function processerbar(){
+		var wid = $("[data-info]").attr("data-info");
+		var preb = 0;
+		$('#line').animate({
+			width: wid
+		},800);
+		var si = window.setInterval(
+		function(){
+			var a = $("#line").width();
+			var b = (a/536*100).toFixed(2);
+
+			if(preb == b){
+				b = wid;
+				debugger
+				clearInterval(si);
+				document.getElementById('percent').innerHTML = b;
+				return ;
+			}
+			preb = b;   //获取上一个值
+			
+			document.getElementById('percent').innerHTML = b + '%';
+			document.getElementById('percent').style.left=a-4+"px";
+		},70);
+	}
+	/*房产抵押右边移入移出*/
+	$('.home_right ul li').hover(function(){
+		$('.home_right ul li').removeClass('home_bg');
+		$(this).addClass('home_bg');
+	},function(){
+		$('.home_right ul li').removeClass('home_bg');
+	});
+
+	/*安全保障移入移出
+	$('.saft_box1').hover(function(){
+		$('.saft_hover1').css('background', 'url(http://image.kuaikuaidai.com/static/images/safe_hover1.png) no-repeat');
+		$('.saft_box1 h2').css('color', '#7623c1');
+	},function(){
+		$('.saft_hover1').css('background', 'url(http://image.kuaikuaidai.com/static/images/safe_1.png) no-repeat');
+		$('.saft_box1 h2').css('color', '#000');
+	});
+
+	高额收益移入移出
+	$('.saft_box2').hover(function(){
+		$('.saft_hover2').css('background', 'url(http://image.kuaikuaidai.com/static/images/safe_hover2.png) no-repeat');
+		$('.saft_box2 h2').css('color', '#7623c1');
+	},function(){
+		$('.saft_hover2').css('background', 'url(http://image.kuaikuaidai.com/static/images/safe_2.png) no-repeat');
+		$('.saft_box2 h2').css('color', '#000');
+	});
+
+	贷款迅速移入移出
+	$('.saft_box3').hover(function(){
+		$('.saft_hover3').css('background', 'url(http://image.kuaikuaidai.com/static/images/safe_hover3.png) no-repeat');
+		$('.saft_box3 h2').css('color', '#7623c1');
+	},function(){
+		$('.saft_hover3').css('background', 'url(http://image.kuaikuaidai.com/static/images/safe_3.png) no-repeat');
+		$('.saft_box3 h2').css('color', '#000');
+	});*/
+
+
+   
+
+});

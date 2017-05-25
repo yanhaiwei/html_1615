@@ -1,0 +1,348 @@
+/*
+  ***xcy***
+  ***缃戠珯澶撮儴***
+*/
+.header {
+	height:39px;
+	line-height:39px;
+	font-size:14px;
+	background-color:#2c3747;
+}
+.header .head_left .head_call em {
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	margin-right: 12px;
+	background: url("http://image.kuaikuaidai.com/static/images/topbottom/newphone.png") no-repeat;
+	vertical-align: middle;
+	margin-top: -3px;
+}
+.header .head_left .head_call {
+	display: inline-block;
+	padding-right: 25px;
+	font-size: 14px;
+	color: acaeb3;
+}
+.header .head_left .head_webtime {
+	display: inline-block;
+	font-size: 14px;
+	color: #acaeb3;
+	/* cursor: pointer; */
+	padding: 0 12px;
+}
+.header .head_rigth .head_web {
+	display: inline-block;
+	font-size: 14px;
+	color: #b5b5b5;
+	cursor: pointer;
+	padding: 0 20px;
+}
+.header .head_rigth .lendwaymoney {
+	display: inline-block;
+	color:#acaeb2;
+	padding-right:34px;
+}
+.header .head_rigth .lendwaymoney a {
+	color:#acaeb2;
+}
+.header .head_rigth a {
+	font-size:14px;
+}
+.head_app {
+	display: none;
+	position: absolute;
+	left: -35px;
+	top: 20px;
+	width: 169px;
+	height: 180px;
+	padding: 13px 0;
+	z-index: 99;
+}
+.header .head_rigth .head_btn {
+	margin-left: 0px;
+	font-size: 14px;
+	color: #fffefe;
+	display: inline-block;
+	width: 46px;
+	text-align: center;
+}
+.header .head_rigth .head_curr {
+
+	background:none;
+	padding-left:20px;
+	width: inherit;
+}
+.header .head_rigth .head_btn.head_curr {
+	margin-left:0px;/*color:#ff7f41*/
+}
+.nav {
+	position: relative;
+	width: 100%;
+	height: 80px;
+	background: #fff;
+	z-index: 10000;
+	border-bottom: solid 1px #eaeaea;
+
+}
+.nav ul {
+	height:78px;
+	line-height: 78px;
+	margin-right:0px;
+
+}
+.nav .nav_logo {
+	position: absolute;
+	left: 0px;
+	top: 16px;
+	_top: 8px;
+}
+.nav ul li{
+	width:150px;
+}
+.nav ul li a {
+	/*padding-left:15px;*/
+	/*margin-right:15px;*/
+}
+.nav ul li a:hover {
+	display: inline-block;
+	font-size: 16px;
+	color: #333333;
+	border-bottom: 3px solid red;
+	color: red;
+}
+.nav ul li {
+	width: 105px;
+	display: inline-block;
+	text-align: right;
+	padding-left: 0;
+	cursor: pointer;
+}
+.header .head_rigth .head_btn {
+	margin-left: 22px;
+	font-size: 14px;
+	color: #fffefe;
+	display: inline-block;
+	width: initial;
+	text-align: center;
+}
+/*
+  ***xcy***
+  ***缃戠珯灏鹃儴***
+*/
+.footer {
+	background: #48474c;
+	width: 100%;
+}
+.footer .foot_bom {
+	padding: 20px 0px;
+	text-align: center;
+	border-top: solid 1px #51575a;
+	background: #333235;
+}
+.footer .foot_bom {
+	padding: 16px 0px;
+	text-align: center;
+	border-top: none;
+	background: #333235;
+}
+.footerwidth {
+	width: 1180px;
+	margin: 0 auto;
+	position: relative;
+}
+.footer .foot_bom .foot_icon {
+	padding-bottom: 12px;
+	text-align: right;
+	padding-top:5px;
+	padding-top:5px;
+}
+.footer .foot_bom .foot_icon a img{
+	display:inline-block;
+	width:65px;
+	height:28px;
+}
+.footer .foot_bom p {
+	color:#59585a;
+	padding-top: 5px;
+	font-size: 12px;
+	position: absolute;
+	top: 0;
+	width: 450px;
+	text-align: left;
+}
+.footer .foot_box .foot_call {
+	float: left;
+	display: inline-block;
+	width: 360px;
+	padding-top: 0px;
+	/*text-align:center;*/
+
+}
+.footer .foot_box {
+	padding-top: 40px;
+	padding-bottom: 0px;
+}
+.footerkkdai {
+	margin-bottom:10px;
+}
+.footer .foot_box .foot_call{
+	margin-left:-40px;
+}
+.footer .foot_box .foot_call .foot_txt h1 {
+	padding: 2px 0px;
+	font-size: 20px;
+	color: #b5b5b5;
+}
+.footer .foot_box .foot_call .foot_txt h1{
+
+}
+.footer .foot_box .foot_call .foot_txt p {
+	font-size: 12px;
+	color: #7c7c7e;
+}
+.info2slptime{
+	padding-left:40px;
+	padding-bottom:20px;
+}
+.info2address{
+	padding-left:90px;
+}
+.beijing{
+	padding-left:105px;
+}
+.zhengzhou{
+	padding-left:176px;
+	white-space:nowrap;
+}
+.footer .foot_box .foot_link {
+	float: left;
+	display: inline-block;
+	width: 400px;
+	padding-top: 0px;
+
+}
+.footer .foot_box .foot_link h2{
+	color:#b5b5b5;
+	font-size:16px;
+	margin-bottom:20px;
+	text-align:center;
+}
+.footer .foot_box .foot_link .ft-info1{
+	float:left;
+}
+.footer .foot_box .foot_link .ft-info2{
+	float:left;
+}
+.footer .foot_box .foot_link a {
+	color:#aeaeae;
+	font-size:14px;
+	padding:0 48px;
+	/*margin-bottom: 37px;*/
+	display: inline-block;
+}
+.footer .foot_box .foot_link a:hover{
+	color:#f3f3f3; 
+	text-decoration: underline;
+}
+.footerer {
+	width:410px;
+	float: left;
+	display: inline-block;
+	padding-top: 0px;
+	border-left: 1px solid #57565b;
+	border-right: 1px solid #57565b;
+
+}
+.footerer .erwei {
+	color: #999999;
+	display: inline-block;
+	text-align: center;
+	width: 175px;
+	font-size: 14px;
+}
+.erweimg img {
+	margin-bottom:19px;
+	width:104px; 
+	height:104px;
+}
+.left55 {
+	margin-left:55px;
+}
+.nav ul li.nav_curr a {
+  color: red;
+}
+.head_login a p span{ color:#f88b2e}
+.header .head_rigth .personlink{ padding-left:0;}
+.header .head_rigth a.goouts{color:#acaeb2}
+
+
+
+.fellow {
+	background:#ebecef;
+	height:188px;
+	width:100%;
+	overflow:hidden;
+	margin-top:60px;
+}
+.fellowtitle {
+	padding-top:32px;
+}
+.myPartner {
+	overflow:hidden;
+	margin: 0 auto;
+	position:relative
+}
+.myPartner li {
+	float:left;
+	margin:0 29px;
+}
+.xfellow {
+	width: 1180px;
+	margin: 0 auto;
+}
+.partnerleft {
+	position:absolute;
+	left:0;
+	top: -2px;
+	z-index:999;
+}
+.partnerright {
+	position:absolute;
+	right:0;
+	top: -5px;
+	z-index:9;
+
+}
+.partnerleft img, .partnerright img {
+	margin-top:0px;
+	cursor:pointer
+}
+.xfellow .ul {
+	height: 77px;
+	overflow: hidden;
+	width: 1180px;
+	margin: 0 auto;
+}
+.xfellow ul {
+	position:relative;
+
+}
+.kkdaibtn a:hover {
+	background:#5f62c7
+}
+.kkdaibtn2 a:hover {
+	background:#3c7cc1
+}
+.kkdaibtn3 a:hover {
+	background:#16a39b
+}
+.partnerleft{ background:url(http://image.kuaikuaidai.com/static/images/index/partnerleft.jpg) no-repeat scroll; width:33px; height:88px; cursor:pointer}
+.partnerright{ background:url(http://image.kuaikuaidai.com/static/images/index/partnerright.jpg) no-repeat scroll; width:32px; height:88px; cursor:pointer}
+.onpartnerleft{background:url(http://image.kuaikuaidai.com/static/images/index/lcurrent.jpg) no-repeat scroll; }
+.onpartnerright{background:url(http://image.kuaikuaidai.com/static/images/index/rcurrent.jpg) no-repeat scroll; }
+.gomylink{ margin-top:10px}
+.xindexbanner .xindexlogin.textcenter{ text-align:center}
+.bannerbox{  position: relative;
+	width: 100%;
+	height: 380px;
+	overflow: hidden;}

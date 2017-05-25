@@ -1,0 +1,253 @@
+.res_register_main .res_registerform .res_registerhead {
+  font-size: 16px;
+  color: #000;
+}
+.res_register_main .res_registerform #res_registername {
+  width: 344px;
+  height: 42px;
+  margin-bottom: 14px;
+  margin-top: 20px;
+}
+.res_register_main .res_registerform #res_registername .xfirstname {
+  border: 1px solid #9c9c9c;
+  border-radius: 4px;
+  width: 108px;
+  height: 40px;
+  float: left;
+}
+.res_register_main .res_registerform #res_registername .xfirstname i {
+  display: block;
+  height: 40px;
+  width: 32px;
+  font-size: 14px;
+  line-height: 40px;
+  float: left;
+  padding-left: 8px;
+}
+.res_register_main .res_registerform #res_registername .xfirstname input {
+  float: left;
+  width: 60px;
+  height: 40px;
+  border: none;
+  font-size: 12px;
+  line-height: 40px;
+}
+.res_register_main .res_registerform #res_registername .xsecondname {
+  border: 1px solid #9c9c9c;
+  border-radius: 4px;
+  width: 228px;
+  height: 40px;
+  float: right;
+}
+.res_register_main .res_registerform #res_registername .xsecondname i {
+  display: block;
+  height: 40px;
+  width: 32px;
+  font-size: 14px;
+  line-height: 40px;
+  float: left;
+  padding-left: 8px;
+}
+.res_register_main .res_registerform #res_registername .xsecondname input {
+  float: left;
+  width: 80px;
+  height: 40px;
+  border: none;
+  font-size: 12px;
+  line-height: 40px;
+}
+.res_register_main .res_registerform #res_registerphone {
+  width: 344px;
+  height: 40px;
+  margin-bottom: 14px;
+}
+.res_register_main .res_registerform #res_xtestcode {
+  width: 344px;
+  height: 40px;
+  margin-bottom: 14px;
+}
+.res_register_main .res_registerform #res_xtestcode i {
+  display: block;
+  height: 40px;
+  width: 62px;
+  font-size: 14px;
+  line-height: 40px;
+  float: left;
+  padding-left: 8px;
+}
+.res_register_main .res_registerform #res_xtestcode input {
+  display: block;
+  float: left;
+  width: 90px;
+  height: 40px;
+  border: none;
+  font-size: 12px;
+  line-height: 40px;
+}
+.res_register_main .res_registerform #res_ptestcode {
+  width: 344px;
+  height: 40px;
+  margin-bottom: 14px;
+}
+.res_register_main .res_registerform #res_ptestcode i {
+  display: block;
+  height: 40px;
+  width: 88px;
+  font-size: 14px;
+  line-height: 40px;
+  float: left;
+  padding-left: 8px;
+}
+.res_register_main .res_registerform #res_ptestcode input {
+  display: block;
+  float: left;
+  width: 90px;
+  height: 40px;
+  border: none;
+  font-size: 12px;
+  line-height: 40px;
+}
+.res_register_main .res_registerform #res_password {
+  width: 650px;
+  height: 40px;
+  margin-bottom: 14px;
+}
+.res_register_main .res_registerform #res_password .xlogin_p {
+  float: left;
+}
+.res_register_main .res_registerform #res_password i {
+  width: 50px;
+}
+.res_register_main .res_registerform #res_password ul {
+  width: 300px;
+  height: 30px;
+  padding-top: 10px;
+  float: right;
+}
+.res_register_main .res_registerform #res_password ul li {
+  float: left;
+  width: 50px;
+  height: 20px;
+  font-size: 14px;
+  background-color: #999;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  margin-left: 9px;
+}
+.res_register_main .res_registerform #res_password ul li:first-child {
+  background-color: #fff;
+  color: #666;
+}
+.res_register_main .res_registerform #res_password ul li:last-child {
+  background-color: #fff;
+  color: #666;
+}
+.res_register_main .res_registerform #res_password ul .red_li {
+  background-color: #d93636;
+}
+.res_register_main .res_registerform #res_rpassword {
+  width: 344px;
+  height: 40px;
+  margin-bottom: 14px;
+}
+.res_register_main .res_registerform #res_agreen {
+  width: 344px;
+  height: 20px;
+  margin-bottom: 5px;
+  line-height: 20px;
+  font-size: 12px;
+}
+.res_register_main .res_registerform #res_agreen a {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border-radius: 2px;
+  float: left;
+  margin-top: 4px;
+  margin-right: 10px;
+}
+.res_register_main .res_registerform #res_agreen .noagreen {
+  background: url(../img/noagreen.png) no-repeat center;
+}
+.res_register_main .res_registerform #res_agreen .yagreen {
+  background: url(../img/yagreen.png) no-repeat center;
+}
+.res_register_main .res_registerform #res_agreen span {
+  color: #d93636;
+}
+.res_register_main .res_registerform input[type=submit] {
+  display: block;
+  height: 50px;
+  width: 344px;
+  border-radius: 4px;
+  background-color: #d93636;
+  border: 1px solid #d93636;
+  margin-top: 20px;
+  font-size: 26px;
+  color: #fff;
+}
+.res_register_main .res_registerform .prompt {
+  width: 344px;
+  height: 50px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 50px;
+}
+.res_register_main .res_registerform .prompt span {
+  color: #d93636;
+}
+.res_register_main .xlogintext {
+  width: 344px;
+  height: 40px;
+  border: 1px solid #9c9c9c;
+  border-radius: 4px;
+}
+.res_register_main .xlogintext i {
+  display: block;
+  height: 40px;
+  width: 82px;
+  font-size: 14px;
+  line-height: 40px;
+  float: left;
+  padding-left: 8px;
+}
+.res_register_main .xlogintext .inputext {
+  float: left;
+  width: 240px;
+  height: 40px;
+  border: none;
+  font-size: 12px;
+  line-height: 40px;
+}
+.res_register_main .rtestcode {
+  width: 188px;
+  height: 40px;
+  border-radius: 4px;
+  float: left;
+  border: 1px solid #9c9c9c;
+}
+.res_register_main .ltestcode {
+  width: 130px;
+  height: 40px;
+  float: right;
+}
+.res_register_main .ltestcode img {
+  display: block;
+  width: 130px;
+  height: 42px;
+  cursor: pointer;
+}
+.res_register_main .ltestcode span {
+  display: block;
+  height: 40px;
+  width: 130px;
+  background-color: #d93636;
+  line-height: 40px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=res_register.css.map */

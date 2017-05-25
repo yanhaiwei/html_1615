@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="360-site-verification" content="b58bc28e4d9e114d22b7725b997fb829">
+		<meta property="qc:admins" content="4352507677633116375636"> 
+		<meta property="qc:admins" content="227617227446334116375636">
+		<meta property="qc:admins" content="22761721506351135114116375">
+		<meta name="sogou_site_verification" content="iwNg4ldAoG">
+		<meta charset="UTF-8">
+		<title>注册_美豫官方网站</title>
+		<meta name="keywords" content="品牌专区，美豫投资">
+		<meta name="description" content="品牌专区，美豫投资">
+		<link rel="shortcut icon" type="image/x-icon" href="http://www.kuaikuaidai.com/favicon.ico" media="screen">
+		
+		<link rel="stylesheet" href="./register/css/register.css" />
+		<script type='text/javascript' src='./head/js/version.js'></script>
+		<script type='text/javascript' src='./register/js/jquery-1.11.1.min.js'></script>
+		<script> 
+	addCss(['./register/css/base.css','./index/css/comm.css','./register/css/kkdai.css','./register/css/safeactivity.css']);</script>
+	</head>
+	<body >
+		<div id="warp" style="background-color:#f5f2f2">
+		  <!--<script>
+			  $(function(){
+				  var clientHeight = document.body.clientHeight ;//可见区域高度
+				  var scrollHeight = document.body.scrollHeight;//整个页面高度
+				  var mheight = parseFloat(scrollHeight) - parseFloat(clientHeight);
+				  $(window).scroll(function(){  //只要窗口滚动,就触发下面代码 
+				  if(mheight<140){//防止抖动81+50
+					 return false;
+				  }else{
+					  var scrollt = document.documentElement.scrollTop + document.body.scrollTop; //获取滚动后的高度 
+					  if( scrollt >=50 ){  //判断滚动后高度超过200px,就显示  
+						  $(".nav").addClass("navon").animate({
+					          top: 0
+					      },250);
+					  }else{ 
+						  $(".nav").stop(!0, !0).removeClass("navon").animate({
+					            top: "-81px"
+					        },20);
+					  }
+				  }
+				  });
+			  });
+		 </script>-->
+		 <!--banner-->
+		 
+				
+		<!--内容主要部分-->
+			<div class="register">
+				<img src="./register/img/neiye_banner.png" alt="" />
+				<div class="register_main">
+					<img src="./register/img/register_fPlanner.png" alt="" />
+					<form action="" id="registerform" class="registerform">
+					 <div id="registerphone" class="reister_list xloginline">
+					 	<div class="xlogintext">
+					 		<span class="loginicon loginaccount"></span><i>手机号 ：</i>
+						 	<input type="text" id="phone" class="inputext"/>
+						 	<span class="logintip">请输入手机号 !</span>
+						 	<label for="phone"></label>
+					 	</div>
+					 	
+					 </div>
+					 <div id="testcode" class="reister_list xloginline">
+					 	<div class="xlogintext">
+					 		<span class="loginicon loginrandom"></span><i>验证码 ：</i>
+						 	<input type="text" id="randCode" class="inputext xtestcode"/>
+						 	<span class="logintip">请输入验证码 !</span>
+						 	<label for="randCode"></label>
+					 	</div>
+					 	<div class="ltestcode">
+					 		<a href="">
+					 			<img src="./register/img/kaptcha.do.jpg" alt="验证码" />
+					 			<span></span>
+					 		</a>
+					 	</div>
+					 </div>
+				     <input type="submit" value="下一步" />
+				     <div class="prompt">如需帮助，请拨打客服热线 <span>4000-137-300</span></div>
+						
+					</form>
+				</div>
+				
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(function() {
+			    $.ajax({
+			        type: 'GET',
+			        url: './head/lib/head.html',
+			        data: '_=' + Date.parse(new Date()),
+			        success: function(data) {
+			        	
+			            $('#warp').prepend(data);
+						$('.clearfix').find('.nav_curr').removeClass('nav_curr').end().children('li').eq(3).addClass('nav_curr')
+			        }
+			    });
+			    $.ajax({
+			        type: 'GET',
+			        url: './head/lib/end.html',
+			        data: '_=' + Date.parse(new Date()),
+			        success: function(data) {
+			            $('#warp').append(data);
+			        }
+			    });
+			  
+			});
+		</script>
+	</body>
+</html>

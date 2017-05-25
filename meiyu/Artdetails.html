@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="360-site-verification" content="b58bc28e4d9e114d22b7725b997fb829">
+		<meta property="qc:admins" content="4352507677633116375636"> 
+		<meta property="qc:admins" content="227617227446334116375636">
+		<meta property="qc:admins" content="22761721506351135114116375">
+		<meta name="sogou_site_verification" content="iwNg4ldAoG">
+		<meta charset="UTF-8">
+		<title>品牌专区_美豫官方网站</title>
+		<meta name="keywords" content="品牌专区，美豫投资">
+		<meta name="description" content="品牌专区，美豫投资">
+		<link rel="shortcut icon" type="image/x-icon" href="http://www.kuaikuaidai.com/favicon.ico" media="screen">
+		<link rel="stylesheet" href="./Artdetails/css/base.css" />
+		<link rel="stylesheet" href="./Artdetails/css/Artdetails.css" />
+		<script type='text/javascript' src='./head/js/version.js'></script>
+		<script type='text/javascript' src='./Artdetails/js/jquery-1.11.1.min.js'></script>
+		<script> <!--addJs(['./product/js/mycenter.js']);-->
+	addCss(['./Artdetails/css/base.css','./index/css/comm.css','./Artdetails/css/kkdai.css','./Artdetails/css/safeactivity.css']);</script>
+	</head>
+	<body >
+		<div id="warp" style="background-color:#f5f2f2">
+		  <!--<script>
+			  $(function(){
+				  var clientHeight = document.body.clientHeight ;//可见区域高度
+				  var scrollHeight = document.body.scrollHeight;//整个页面高度
+				  var mheight = parseFloat(scrollHeight) - parseFloat(clientHeight);
+				  $(window).scroll(function(){  //只要窗口滚动,就触发下面代码 
+				  if(mheight<140){//防止抖动81+50
+					 return false;
+				  }else{
+					  var scrollt = document.documentElement.scrollTop + document.body.scrollTop; //获取滚动后的高度 
+					  if( scrollt >=50 ){  //判断滚动后高度超过200px,就显示  
+						  $(".nav").addClass("navon").animate({
+					          top: 0
+					      },250);
+					  }else{ 
+						  $(".nav").stop(!0, !0).removeClass("navon").animate({
+					            top: "-81px"
+					        },20);
+					  }
+				  }
+				  });
+			  });
+		 </script>-->
+		 <!--banner-->
+		 <div style="width:100%;position:absolute;top:118px;height:524px;background:url(./Artdetails/img/neiye_banner.png) no-repeat left top;"></div>
+				
+		<!--内容主要部分-->
+		<div class="Artdetails">
+			<div class="Artdetails_main">
+				<h1>第一届“产业&金融交流会”圆满成功！</h1>
+				<div><span>2017-03-09</span><img src="./Artdetails/img/read.png" alt="" /><span>120</span></div>
+				<p>经过前期的精心筹备与布置，天诺财富管理(深圳)有限公司于2016年8月12日在成都迎来了第一次于同行及客户的交流分享会，本次交流会主要围绕“产业&金融”为主题。</p>
+				<img src="./Artdetails/img/Artdetails_bg.png" alt="" class="Artdetails_bg"/>
+				<ul>
+					<li>上一章 ：<span>经过前期的精心筹备与布置，天诺财富管理(深圳)有限公司于2016年8月12日在成都迎来了第。</span></li>
+					<li>下一章 ：<span>一次于同行及客户的交流分享会，本次交流会主要围绕“产业&金融”为主题</span></li>
+				</ul>
+				
+				
+			</div>
+			
+			
+		</div>
+		</div>
+		<script type="text/javascript">
+			$(function() {
+			    $.ajax({
+			        type: 'GET',
+			        url: './head/lib/head.html',
+			        data: '_=' + Date.parse(new Date()),
+			        success: function(data) {
+			        	
+			            $('#warp').prepend(data);
+						$('.clearfix').find('.nav_curr').removeClass('nav_curr').end().children('li').eq(3).addClass('nav_curr')
+			        }
+			    });
+			    $.ajax({
+			        type: 'GET',
+			        url: './head/lib/end.html',
+			        data: '_=' + Date.parse(new Date()),
+			        success: function(data) {
+			            $('#warp').append(data);
+			        }
+			    });
+			  
+			});
+		</script>
+	</body>
+</html>

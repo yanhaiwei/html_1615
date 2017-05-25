@@ -1,0 +1,1554 @@
+*{margin:0; padding:0; list-style:none; font-family:"微软雅黑"; border:none;}
+a{text-decoration:none;}
+:focus{outline:0 none;}
+select,input{vertical-align:middle;}
+body{background:#eeeff3;}
+/*�ҵ��˻�*/
+.accbolright.mycenterrule{ padding-bottom:50px;}
+.inver_not{border:1px solid #eee; border-top:0; margin-bottom:30px;}
+.accwrap{width:1180px; margin:0 auto; overflow:hidden;}
+.acctop{margin:33px 0 14px 0; padding:30px 0 27px 0; height:122px; background:#fff; border:1px solid #e4e4e4;}
+.actole{float:left; height:122px;}
+.heapic{width:190px; text-align:center; position:relative;}
+.heapic img{margin-top:13px;}
+.heapic .mycam{position:absolute; left:52px; top:75px;  z-index: 1000;}
+.zuntinf{width:170px; border-right:1px solid #eee; color:#3b3b3b; position:relative;}
+.myunt{font-size:16px; margin-bottom:25px; height:32px; line-height:32px;}
+.dope{font-size:14px; margin-bottom:13px;}
+.zuntinf a{color:#6c54b6; font-size:14px; text-decoration:underline;}
+.dope a{color:#3b3b3b; text-decoration:none;}
+.dope a span{color:#ed1a1a;}
+.zseclev{width:457px; padding-left:45px; border-right:1px solid #eee;}
+.zlevel{color:#666; font-size:14px; height:32px; line-height:32px; margin-bottom:20px;}
+.zlevel span{margin-right:15px;}
+.zlevel img{vertical-align:-2px; margin-right:3px;}
+.authen li{width:50px; float:left; margin-right:26px; text-align:center; position:relative;}
+.authen p{font-size:12px; color:#999; margin-top:15px;}
+.authen span ,.zmanxx{position:absolute; display:none; font-size:14px; color:#666; text-align:center; line-height:59px; width:127px; height:54px; left:-43px; top:62px; background: url(http://image.kuaikuaidai.com/static/images/mycenter/spadis.png); z-index:20;}
+.zmanxx{display:block; left:-36px; top:109px;}
+.zsig{width:226px; padding:0 44px;}
+.zsig a{font-size:12px; color:#6c54b6; text-decoration:underline; margin-left:37px;}
+.zsig .sigbtn{width:80px; display:inline-block; padding-left:54px; height:38px; line-height:38px; font-size:14px; color:#fff; border-radius:3px; background:#6c54b6 url(http://image.kuaikuaidai.com/static/images/mycenter/sign.png) no-repeat 22px 7px; margin:12px 0 20px 80px;}
+.zsig p{font-size:12px; color:#666; margin-bottom:7px;}
+.accboleft{width:223px; float:left; border:1px solid #e4e4e4; background:#fff; min-height:100px; margin-bottom:70px;}
+.accboleft a{display:block; padding-left:39px; height:62px; line-height:62px; color:#666; font-size:16px;}
+
+.clicur a,.clicurr a{color:#6c54b6;}
+.accboleft em{display:inline-block; width:24px; margin-right:25px;}
+.zunt em{height:18px; background: url(http://image.kuaikuaidai.com/static/images/mycenter/unticon.png) no-repeat; vertical-align:-3px;}
+.clicur .zunt em,.clicurr .zunt em{background: url(http://image.kuaikuaidai.com/static/images/mycenter/unticon1.png) no-repeat;}
+.zrent em{height:24px; background: url(http://image.kuaikuaidai.com/static/images/mycenter/curicon.png) no-repeat; vertical-align:-6px;}
+.clicur .zrent em,.clicurr .zrent em{background: url(http://image.kuaikuaidai.com/static/images/mycenter/curicon1.png) no-repeat;}
+.zregu em{height:24px; background: url(http://image.kuaikuaidai.com/static/images/mycenter/regicon.png) no-repeat; vertical-align:-6px;}
+.clicur .zregu em,.clicurr .zregu em{background: url(http://image.kuaikuaidai.com/static/images/mycenter/regicon1.png) no-repeat;}
+.zloaq em{height:23px; background: url(http://image.kuaikuaidai.com/static/images/mycenter/loaicon.png) no-repeat; vertical-align:-5px;}
+.clicur .zloaq em,.clicurr .zloaq em{background: url(http://image.kuaikuaidai.com/static/images/mycenter/loaicon1.png) no-repeat;}
+.zgol em{height:20px; background: url(http://image.kuaikuaidai.com/static/images/mycenter/golicon.png) no-repeat; vertical-align:-3px;}
+.clicur .zgol em,.clicurr .zgol em{background: url(http://image.kuaikuaidai.com/static/images/mycenter/golicon1.png) no-repeat;}
+.zhap em{height:24px; background: url(http://image.kuaikuaidai.com/static/images/mycenter/hapicon.png) no-repeat; vertical-align:-6px;}
+.clicur .zhap em,.clicurr .zhap em{background: url(http://image.kuaikuaidai.com/static/images/mycenter/hapicon1.png) no-repeat;}
+.zvouc em{height:21px; background: url(http://image.kuaikuaidai.com/static/images/mycenter/vouicon.png) no-repeat; vertical-align:-4px;}
+.clicur .zvouc em,.clicurr .zvouc em{background: url(http://image.kuaikuaidai.com/static/images/mycenter/vouicon1.png) no-repeat;}
+.ztra em{height:22px; background: url(http://image.kuaikuaidai.com/static/images/mycenter/traicon.png) no-repeat; vertical-align:-5px;}
+.clicur .ztra em,.clicurr .ztra em{background: url(http://image.kuaikuaidai.com/static/images/mycenter/traicon1.png) no-repeat;}
+.zcar em{height:18px; background: url(http://image.kuaikuaidai.com/static/images/mycenter/caricon.png) no-repeat; vertical-align:-3px;}
+.clicur .zcar em,.clicurr .zcar em{background: url(http://image.kuaikuaidai.com/static/images/mycenter/caricon1.png) no-repeat;}
+.zinf em{height:23px; background: url(http://image.kuaikuaidai.com/static/images/mycenter/inficon.png) no-repeat; vertical-align:-7px;}
+.clicur .zinf em,.clicurr .zinf em{background: url(http://image.kuaikuaidai.com/static/images/mycenter/inficon1.png) no-repeat;}
+.zifr em{height:17px; background: url(http://image.kuaikuaidai.com/static/images/mycenter/fricon.png) no-repeat; vertical-align:-2px;}
+.clicur .zifr em,.clicurr .zifr em{background: url(http://image.kuaikuaidai.com/static/images/mycenter/fricon1.png) no-repeat;}
+.ifrlive em{height:22px; width:26px; margin-right:23px; background: url(http://image.kuaikuaidai.com/static/images/mycenter/livecon.png) no-repeat; vertical-align:-2px;}
+.clicur .ifrlive em,.clicurr .ifrlive em{background: url(http://image.kuaikuaidai.com/static/images/mycenter/livecon1.png) no-repeat;}
+
+
+.accbolright{   min-height: 682px; position: relative;width:860px; padding:0 40px; float:right; border:1px solid #e4e4e4; background:#fff; min-height:100px;}
+.zriwa{padding:40px 0; border-bottom:1px solid #eee;}
+.zriwa div{display:inline-block;}
+.znec{width:620px;}
+.znec p,.zdiscli p{padding-left:40px;}
+.zfirtic{font-size:16px; line-height:23px; color:#666; background: url(http://image.kuaikuaidai.com/static/images/mycenter/accbal.png) no-repeat; position:relative;}
+.zfirtic span,.zeye{display:inline-block; width:20px; height:20px; background: url(http://image.kuaikuaidai.com/static/images/mycenter/eye.png) no-repeat left center; margin-left:30px; cursor:pointer; position:relative; position:absolute;}
+.zeye em{}
+.zfirtic em,.zeye em{display:inline-block; width:20px; height:20px; background:#fff url(http://image.kuaikuaidai.com/static/images/mycenter/eyeclo.png) no-repeat left 10px; position:absolute; display:none;}
+.znec .ztoam{font-size:14px; color:#ff7301; margin:20px 0 30px 0;}
+.ztoam span{font-size:24px;}
+.ztoam em{font-size:24px; font-style:normal;}
+.znec .znote{font-size:12px; color:#b3b3b3; margin-top: 8px;}
+.zreca{width:235px; text-align:right;}
+.zreca .zwbtn{width:96px; height:38px; line-height:38px; border-radius:3px; font-size:14px; color:#fff; display:inline-block; background:#68abf6; text-align:center; margin-bottom:45px;}
+.zreca .zdrawabtn{background:#ff8181; margin-left:20px;}
+.zreca p{  background: url(http://image.kuaikuaidai.com/static/images/managingMoney/regbz.png) no-repeat 14px 2px;height: 18px}
+.zreca p a{font-size:12px; color:#999;}
+.zswicwarp{height:72px;}
+.zassw{padding-top:40px; height:655px;}
+.zswic{display:inline-block; width:430px; float:left;}
+.zdiscli{display:inline-block; cursor:pointer;}
+.zdiscli p{display:inline-block;}
+.zdiscli .ztoam{margin-top:20px;}
+.ztoam{font-size:14px; color:#ff7301;}
+.disleft .zfirtic{background: url(http://image.kuaikuaidai.com/static/images/mycenter/toas.png) no-repeat;}
+.disright .zfirtic{background: url(http://image.kuaikuaidai.com/static/images/mycenter/zfir3.png) no-repeat;}
+.zaniwarp{height:480px; position:relative;}
+.zanifi{margin-top:35px; position:relative; position:absolute; top:0px; background:#f1eff7; height:500px;}
+/*.zslian{top:0;}*/
+/* .zshou{top:-504px;} */
+.zanwrap{overflow:hidden; width:860px;}
+.ztria{position:absolute; left:46px; top:-24px;}
+.zposix{position:absolute; left:475px; top:-24px;}
+.zopti{display:inline-block; width:124px; height:124px; line-height:124px; text-align:center; background: url(http://image.kuaikuaidai.com/static/images/mycenter/zopti.png) no-repeat; color:#666; font-size:14px; position:absolute; left:127px; top:138px; z-index:2005;}
+#zmain,#zpromai{display:inline-block; float:left; width:440px; height:400px;}
+.ztag{float:left; width:375px; padding:70px 45px 0 0; font-size:14px; color:#666;}
+.ztag p{height:60px; padding-left:76px; background: url(http://image.kuaikuaidai.com/static/images/mycenter/zpicon.png) no-repeat 48px 4px;}
+.ztag .zp1{background-image:url(http://image.kuaikuaidai.com/static/images/mycenter/zp1.png);}
+.ztag .zp2{background-image:url(http://image.kuaikuaidai.com/static/images/mycenter/zp2.png);}
+.ztag .zp3{background-image:url(http://image.kuaikuaidai.com/static/images/mycenter/zp3.png);}
+.ztag .zp4{background-image:url(http://image.kuaikuaidai.com/static/images/mycenter/zp4.png);}
+.ztag .zp5{background-image:url(http://image.kuaikuaidai.com/static/images/mycenter/zp5.png);}
+.ztag .zp6{background-image:url(http://image.kuaikuaidai.com/static/images/mycenter/zp6.png);}
+.ztag .zp7{position:relative; background-image:url(http://image.kuaikuaidai.com/static/images/mycenter/zp7.png);}
+.ztag .zp8 ,.ztag .zp16{background-image:url(http://image.kuaikuaidai.com/static/images/mycenter/zp8.png);}
+.ztag .zp11{background-image:url(http://image.kuaikuaidai.com/static/images/mycenter/zp11.png);}
+.ztag .zp12{background-image:url(http://image.kuaikuaidai.com/static/images/mycenter/zp12.png);}
+.ztag .zp13{background-image:url(http://image.kuaikuaidai.com/static/images/mycenter/zp13.png);}
+.ztag .zp14{background-image:url(http://image.kuaikuaidai.com/static/images/mycenter/zp14.png);}
+.ztag .zp15{background-image:url(http://image.kuaikuaidai.com/static/images/mycenter/zp15.png);}
+.ztag .zp20{background-image:url(http://image.kuaikuaidai.com/static/images/mycenter/zp20.png);}
+.ztag .zp21{background-image:url(http://image.kuaikuaidai.com/static/images/mycenter/zp21.png);}
+.ztag .zp22{background-image:url(http://image.kuaikuaidai.com/static/images/mycenter/zp22.png);}
+.ztag .zp23{background-image:url(http://image.kuaikuaidai.com/static/images/mycenter/zp23.png);}
+.ztag .zp24{background-image:url(http://image.kuaikuaidai.com/static/images/mycenter/zp24.png);}
+.ztag .zp31{background-image:url(http://image.kuaikuaidai.com/static/images/mycenter/zp31.png);}
+.ztag .zp32{background-image:url(http://image.kuaikuaidai.com/static/images/mycenter/zp32.png);}
+.ztag .zp33{background-image:url(http://image.kuaikuaidai.com/static/images/mycenter/zp33.png);}
+.ztag p span{float:right; font-size:14px; color:#333;}
+.ztag p b{font-weight:normal; font-size:12px; color:#999; float:left; margin-top:3px;}
+.ztag p .zdjznum{font-weight:normal; font-size:12px; color:#999;}
+.ztag p em{font-size:16px; font-style:normal;}
+.ztag p em b{font-size:16px; font-style:normal; color:#333;}
+.zbicon{font-size:12px; padding-left:25px; color:#999; background: url(http://image.kuaikuaidai.com/static/images/mycenter/zbicon.png) no-repeat 325px 0px; text-align:center;}
+.zbicon1{background-position:325px 0px;}
+.zfitp{padding-top:70px;}
+/* ����׬ */
+.zearn .ztoam{margin-bottom:0;}
+.t_font_face{font-family: 'fzlantinghei';font-weight: normal;}
+.zearn .zwbtn{margin-bottom:0; font-size:14px; background:#6c54b6;}
+.zearn .zreca{float:right; margin-top:10px;}
+.zearn .tuoutbtn{margin-left:12px; box-sizing:border-box;  border:1px solid #6c54b6; background:#fff; color:#6c54b6;}
+.zprofit{padding:40px 0; border-bottom:1px solid #eee; overflow:hidden;}
+.zprofit .ztoam{margin-bottom:0;}
+.zprofit .znec{width:286px; float:left;}
+.zearn .zfirtic{background: url(http://image.kuaikuaidai.com/static/images/mycenter/zearn.png) no-repeat;}
+.zprofit .zfir1{background: url(http://image.kuaikuaidai.com/static/images/mycenter/zfir1.png) no-repeat;}
+.zprofit .zfir2{background: url(http://image.kuaikuaidai.com/static/images/mycenter/zfir2.png) no-repeat;}
+.zprofit .zfir3{background: url(http://image.kuaikuaidai.com/static/images/mycenter/zfir3.png) no-repeat;}
+.zfinimg .zfirtic{background: url(http://image.kuaikuaidai.com/static/images/mycenter/zfir3.png) no-repeat;}
+.ztrechart{padding:40px 0; position:relative; border-bottom:1px solid #eee;}
+.ztrechart .zfirtic{padding-left:40px; background: url(http://image.kuaikuaidai.com/static/images/mycenter/ztrechart.png) no-repeat;}
+.ztrechart span{font-size:14px; color:#999; margin:20px 0 10px 0; display:block;}
+.zfei{text-align:right; font-size:12px; color:#999;}
+.zfei a{text-decoration:underline; color:#6c54b6;}
+.zfei a:hover{color:#6f5fa0;}
+.zatab{position:absolute; top:60px; right:0px;}
+.zatab a{color:#c7c7c7; font-size:14px; display:inline-block; width:59px; height:23px; line-height:23px; text-align:center; border:1px solid #c7c7c7;}
+.zatab .zaleft{border-right:0; border-radius:2px 0 0 2px;}
+.zatab .zaright{border-left:0; border-radius:0 2px 2px 0;}
+.zatab .acur{background:#6c54b6; color:#fff; border-color:#6c54b6;}
+.zsaction{padding:40px 0;}
+table{border-collapse:collapse; border-spacing:0;}
+.zsaction table,.zbidrec table,.zivtable table{margin-top:30px; color:#666; font-size:14px; border:1px solid #e4e4e4;}
+.zsaction tr, .zbidrec tr, .zivtable tr{height:57px; line-height:57px;}
+.zsaction td, .zbidrec td, .zivtable td{border-bottom:1px solid #ebebeb;}
+.zsaction .zsatr, .zbidrec .zsatr, .zivtable .zsatr{height:46px; line-height:46px; background:#f0eef6;}
+.zsaction #yuebaolist{width:860px;}
+.zsaction #paging{width:860px;}
+#paging ul li{border:0;}
+.zs1{width:245px; padding-left:70px;}
+.zs2{width:370px;}
+.zs3{width:173px;}
+.zsase{font-size:14px; color:#333; margin-top:30px;}
+.zsase span{display:inline-block; width:60px; height:23px; line-height:23px; text-align:center; border-radius:3px; cursor:pointer;}
+.zsase .zsacur{background:#6c54b6; color:#fff;}
+/* �������ҳ */
+.zgement .zanifi{height:318px;}
+#zmabal, #zmabyi{width:400px; height:318px; float:left;}
+.zgement .zopti{top:98px; left:110px;}
+.zgement .ztag{padding-top:85px;}
+.zgement .ztag{padding-top:65px;}
+.zgement .ztag2{padding-top:35px;}
+.zgement .zaniwarp{height:342px;}
+.zgement{height:430px; padding-bottom:40px; border-bottom:1px solid #eee;}
+.zbidrec{padding:40px 0 0 0;}
+.zbidrec .zfirtic,.zfirtic{padding-left:40px; background: url(http://image.kuaikuaidai.com/static/images/mycenter/toas.png) no-repeat;}
+.zb2{width:120px;}
+.zb3{width:140px;}
+.zb4{width:150px;}
+.zb5{width:115px;}
+.zb6{width:140px;}
+.zb1 img{vertical-align:middle; margin-right:10px;}
+.ztbpo{position:relative;}
+.ztbbtn{position:absolute; width:64px; height:28px; line-height:28px; text-align:center; color:#fff; font-size:14px; border-radius:4px; left:225px; top:2px; background:#6c54b6;}
+.zsaction .zfirtic{padding-left:40px; background: url(http://image.kuaikuaidai.com/static/images/mycenter/zsaction.png) no-repeat;}
+/* ������Ϣҳ */
+.zmat{padding:40px 0 0;}
+.zpas{padding:0 0 40px; }
+.zmat .zfirtic{padding-left:40px; background:url(http://image.kuaikuaidai.com/static/images/mycenter/zmat.png) no-repeat;}
+.zpas .zfirtic{padding-left:40px; background:url(http://image.kuaikuaidai.com/static/images/mycenter/zpas.png) no-repeat;}
+.zinma{padding-left:40px; font-size:14px; color:#666; overflow:hidden; margin-bottom:20px;}
+.zinma a,#secure_btn4{color:#6c54b6; text-decoration:underline; margin-right:25px;}
+#secure_btn4{cursor:pointer; border:0;}
+.zaccinf{margin-top:30px;}
+.zaccinf .zinic{background:url(http://image.kuaikuaidai.com/static/images/mycenter/accic.png) no-repeat;}
+.zinic{float:left; width:50px; height:22px;}
+.zinic img{margin:5px 0 0 14px;}
+.zinti{display:inline-block; margin-right:30px; width:100px}
+.zincc{display:inline-block; width:282px;}
+.zina{display:inline-block;}
+.zinamar{margin-left:27px;}
+.ztiem{display:inline-block; font-style:normal; color:#bbbaba; font-size:12px;}
+.znick{margin-bottom:0;}
+.znick .zinic{background:url(http://image.kuaikuaidai.com/static/images/mycenter/nick.png) no-repeat;}
+.zrenaau{margin-top:30px;}
+.zrenaau .zinic{background:url(http://image.kuaikuaidai.com/static/images/mycenter/renaau.png) no-repeat;}
+.zswor .zinic{background:url(http://image.kuaikuaidai.com/static/images/mycenter/swor.png) no-repeat;}
+.zsman .zinic{background:url(http://image.kuaikuaidai.com/static/images/mycenter/zsman.png) no-repeat;}
+.zentpas .zinic{background:url(http://image.kuaikuaidai.com/static/images/mycenter/xl.png) no-repeat;}
+.zsecmal .zinic{background:url(http://image.kuaikuaidai.com/static/images/mycenter/secmal.png) no-repeat;}
+.zboupho .zinic{background:url(http://image.kuaikuaidai.com/static/images/mycenter/boupho.png) no-repeat;}
+.znipg .zinic{background:url(http://image.kuaikuaidai.com/static/images/mycenter/fxicon.png) no-repeat;}
+.zdisblo{padding-left:52px; margin-top:20px; display:none;}
+.zdisblo p{font-size:14px; color:#666; height:32px; line-height:32px; margin-bottom:24px; position:relative;}
+.zdisblo span{display:inline-block; width:105px;}
+.zdisblo input{width:233px; height:30px; color:#999; padding-left:5px; border-radius:2px; border:1px solid #e4e4e4;}
+.zdisblo .zabtn{width:100px; background:#6c54b6; border-radius:2px; display:inline-block; text-decoration:none; height:33px; line-height:33px; text-align:center; color:#fff; margin-left:110px;}
+.zticaback span{display:inline-block; width:auto;}
+.zticaback em{display:inline-block; font-style:normal; margin-right:46px;}
+.zinma .error{font-size:12px; color:#ed1a1a; position:absolute; left:110px; top:26px;}
+.zinma .zfoge{font-size:14px; color:#bbbaba;}
+/* .zinma .zmaicod{overflow:hidden;} */
+.zinma .zmaicod span{float:left;}
+.zinma .zmaicod input{border-radius:2px 0 0 2px; margin-left:4px; width:138px; float:left;}
+#newphoCode{width:133px;}
+#getoriginalCode,#getNewphoCode{width:95px; cursor:pointer; background:#6c54b6; display:inline-block; text-decoration:none; color:#fff; margin-left:0; border:0; height:32px; border-radius:0 2px 2px 0; text-align:center; float:left;}
+.zinma .zmaicod a{width:95px; display:inline-block; text-decoration:none; color:#fff; background:#e4e4e4; border-radius:0 2px 2px 0; text-align:center; float:left;}
+.accbolright #span_email{padding:0; width:94px; border-radius:0 2px 2px 0; height:32px; text-align:center;}
+#register_btn #subbt{margin-left:110px;}
+.zinma #realName_lable,.zinma #cardNo_lable{position:absolute; left:110px; top:26px;}
+#lableInfo{margin-left:110px;}
+/* ������ϸ */
+select{appearance:none; -moz-appearance:none; -webkit-appearance:none;}
+.zseasel{margin-top:35px; font-size:14px; color:#666; height:33px; line-height:33px;}
+.zseasel select{width:166px; padding:5px 5px; border:1px solid #e4e4e4; color:#999; margin:0 50px 0 15px; background: url(http://image.kuaikuaidai.com/static/images/mycenter/zseicon.png) no-repeat 130px center;}
+.zseasel input{width:174px; padding:6px 5px; border:1px solid #e4e4e4; color:#999;background: url(http://image.kuaikuaidai.com/static/images/mycenter/zinicon.png) no-repeat 160px center;}
+.zseasel span{color:#d1d1d1;}
+.zbegin{margin:0 12px 0 15px;}
+.zend{margin:0 25px 0  12px;}
+.zseasel .zqubtn{width:66px; text-align:center; border:0; border-radius:3px; background:#6c54b6; color:#fff; cursor:pointer;}
+.zt1{width:140px; padding-left:50px;}
+.zt2{width:150px;}
+.zt3{width:150px;}
+.zt4{width:200px;}
+.zt5{width:170px;}
+/* ���п� */
+.zbancar{padding:40px 0; border-bottom:1px solid #eee;}
+.zbancar .zfirtic{padding-left:40px; background: url(http://image.kuaikuaidai.com/static/images/mycenter/bancar.png) no-repeat;}
+.zunbound{height:194px; background: url(http://image.kuaikuaidai.com/static/images/mycenter/zunbound.png) no-repeat center 0; margin-top:10px; font-size:14px;}
+.zunbo{color:#333; text-align:center; padding-top:58px;}
+.zgive{color:#666; text-align:center; padding-top:49px;}
+.zgive span{font-size:24px; color:#ff7301;}
+.zfill, .zbound{padding:40px 0;}
+.zfill{position:relative;}
+.zfill .zfirtic{padding-left:40px; background: url(http://image.kuaikuaidai.com/static/images/mycenter/fill.png) no-repeat;}
+.zzfill .zfirtic{background: url(http://image.kuaikuaidai.com/static/images/mycenter/zfill.png) no-repeat;}
+.zfilltip{padding-left:70px; height:31px; line-height:31px; font-size:14px; color:#666; background:#faf0d2 url(http://image.kuaikuaidai.com/static/images/mycenter/zfilltip.png) no-repeat 40px center; margin:30px 0;}
+.tfilltip{ padding-left:30px;  margin:30px 7px 30px 0; background:#faf0d2 url(http://image.kuaikuaidai.com/static/images/mycenter/zfilltip.png) no-repeat 8px center;}
+.zcarfill{font-size:14px; color:#666;}
+.zcarfill li{margin-bottom:30px; height:47px; position:relative;}
+.zcarfill input{border:1px solid #e4e4e4; float:left; width:318px; height:47px; line-height:47px; box-sizing:border-box; padding-left:10px; color:#999; border-radius:4px;}
+.zcarfill span{float:left; height:47px; line-height:47px; width:240px; margin-right:10px; text-align:right;}
+.zcarfill .zspanspan{padding:0 0 0 20px; text-align:left; width:296px;}
+.zcarfill em{float:left; font-style:normal; height:47px; line-height:47px; color:#ed1a1a; padding-left:25px;}
+.zcarna input{background: url(http://image.kuaikuaidai.com/static/images/mycenter/zcarna.png) no-repeat 270px 0;}
+.zcarfill img{vertical-align:middle; margin-right:12px;}
+.zvercode input{width:192px;}
+.zvercode .zcodebtn{width:114px;margin-left:12px; background:#e8e7ee; padding:0; cursor:pointer;}
+.zcarfill .zconfirm{background:#6c54b6; color:#fff; padding:0; cursor:pointer;}
+.zcarfill .zconhref{background:#6c54b6; color:#fff; margin-left:15px; display:inline-block; border:1px solid #e4e4e4; float: left; width: 318px; height: 47px; line-height: 47px; box-sizing:border-box; text-align:center; border-radius:4px;}
+.zantee{background:url(http://image.kuaikuaidai.com/static/images/managingMoney/regbz.png) no-repeat 268px 0; text-align:center; padding-right:20px; height:20px;}
+.zantee a{font-size:12px; color:#999;}
+.zbound .zfirtic{padding-left:40px; background: url(http://image.kuaikuaidai.com/static/images/mycenter/toas.png) no-repeat;}
+.zbocard{height:194px; background: url(http://image.kuaikuaidai.com/static/images/mycenter/zbocard.png) no-repeat center 0; margin-top:20px; position:relative;}
+.zbocard img{position:absolute; left:298px; top:17px;}
+.zbocard a{position:absolute; left:533px; font-size:14px; top:25px; color:#6c54b6; text-decoration:underline;}
+.zbocard span{position:absolute; font-size:24px; color:#666; left:302px; top:114px;}
+.zbound .zantee{margin-top:30px; padding-left:40px; background-position:287px 3px;}
+.wholecards{width:592px; z-index:10; border:1px solid #e4e4e4; overflow:hidden; position:absolute; left:250px; top:200px; background:#fff; display:none;}
+.wholecards img{max-width:110px; height:auto; vertical-align:middle;}
+.wholecards li{width:148px; height:71px; float:left; line-height:71px; text-align:center; border-right:1px solid #eee; box-sizing:border-box; border-bottom:1px solid #eee; cursor:pointer;}
+.wholecards .znoribo{border-right:0;}
+.wholecards .zcurtion{border:1px solid #ffa757;}
+/* ������� */
+.zinvfri{padding:40px 0; border-bottom:1px solid #eee;}
+.zinvfri .zfirtic{padding-left:40px; background: url(http://image.kuaikuaidai.com/static/images/mycenter/invfri.png) no-repeat;}
+.zinvfri a, .zinvirules a{color:#6c54b6; font-size:14px; float:right; text-decoration:underline;}
+.zsharebox{overflow:hidden; margin-top:30px;}
+.zsharebox div{width:264px; float:left; height:240px; border:1px solid #e4e4e4; background:#f5f5f5; border-radius:3px; box-sizing:border-box;}
+.zshmar{margin:0 34px;}
+.zsharebox div p{color:#333; font-size:14px; text-align:center; margin-top:25px;}
+.shareway{font-size:12px; color:#999; overflow:hidden; padding-left:15px; margin-top:75px;}
+.shareway a{float:none;}
+.shareway li{float:left; width:50px; margin-right:10px; text-align:center;}
+.shareway img{margin-bottom:15px;}
+.zshmar a{float:none; display:inline-block; width:149px; height:47px; line-height:47px; text-align:center; background:#ffdfa1; color:#333; font-size:14px; border-radius:4px; margin:75px 0 0 56px; text-decoration:none;}
+.zshmar a:hover{background:#f9e3ba;}
+.zshacode img{margin:34px 0 0 64px;}
+.zivtable{padding:40px 0;}
+.zivtable .zfirtic{padding-left:40px; background: url(http://image.kuaikuaidai.com/static/images/mycenter/toas.png) no-repeat;}
+.zi1{width:100px;}
+.zi2{width:150px;}
+.zi3{width:110px;}
+.zi4{width:200px;}
+.zi5{width:140px;}
+.zi6{width:65px; text-align:center;}
+.zivtable tr table{margin:0; border:0; background:#f5f5f5;}
+.zivtable tr table td{border:0;}
+.zinvirules{padding:40px 0; display:none;}
+.zinvirules .zfirtic{padding-left:40px; background: url(http://image.kuaikuaidai.com/static/images/mycenter/invfri.png) no-repeat; margin-bottom:30px;}
+.zinvirules h3{margin:25px 0 15px 0; font-size:14px; color:#666; font-weight:normal;}
+.zinvirules .zfot{font-size:14px; color:#999; height:25px;}
+.zinvirules .ztexin{text-indent:23px;}
+.zbtnrch{float:right; margin-top:-25px;}
+.zbtnrch input{float:left; width:234px; height:31px; line-height:31px; padding-left:10px; font-size:14px; color:#333; border:1px solid #e4e4e4; border-radius:3px 0 0 3px; color:#333}
+.zbtnrch button{float:left; height:33px; width:31px; background:#fff url(http://image.kuaikuaidai.com/static/images/mycenter/btnrch.png) no-repeat center center; border:1px solid #e4e4e4; border-left:0; border-radius:0 3px 3px 0;}
+#copy-button{float: none; display:inline-block; width:149px; height:47px; line-height:47px; text-align:center; background:#ffdfa1; color:#333; font-size:14px; border-radius:4px; margin:75px 0 0 56px; text-decoration:none;}
+.shareway .jiathis_button_qzone .jtico_qzone{background: url("http://image.kuaikuaidai.com/static/images/mycenter/zqq.png") no-repeat; width: 41px; height: 41px; margin-bottom:13px; margin-left:5px;}
+.shareway .jiathis_button_weixin .jtico_weixin{background: url("http://image.kuaikuaidai.com/static/images/mycenter/zcircle.png") no-repeat; width: 41px; height: 41px; margin-bottom:13px; margin-left:5px;}
+.shareway .jiathis_button_tsina .jtico_tsina{background: url("http://image.kuaikuaidai.com/static/images/mycenter/zsina.png") no-repeat; width: 41px; height: 41px; margin-bottom:13px; margin-left:3px;}
+.shareway .jiathis_button_tqq .jtico_tqq{background: url("http://image.kuaikuaidai.com/static/images/mycenter/zmicro.png") no-repeat; width: 41px; height: 41px; margin-bottom:13px; margin-left:3px;}
+.zsharebox .jiathis_style_32x32 .jtico{height:41px!important;}
+.zsharebox .jiathis_style_32x32 .jiathis_separator{float:none;}
+.zsharebox .jiathis_style_32x32 .jiathis_txt{float:none;}
+
+/*xcy*/
+.clearfix:after {
+	clear:both;
+	content:"";
+	display:block;
+	height:0;
+	visibility:hidden;
+	line-height:0;
+}
+.clearfix {
+	zoom:1;
+}
+.clear {
+	clear:both;
+	height:0;
+	width:0;
+	display:block;
+	visibility:hidden;
+	overflow:hidden;
+}
+.xpersontestmoney {
+	margin-top:40px;
+}
+.xtestmoneyf1 {
+	width:420px;
+	position:relative;
+}
+.xtesttext .xmytest {
+	background: url(http://image.kuaikuaidai.com/static/images/mycenter/accbal.png) no-repeat scroll;
+	padding-left: 40px;
+}
+.left {
+	float:left
+}
+.xtestlink {
+	font-size:12px;
+	color:#6c54b6;
+	text-decoration:underline
+}
+.xtestfont {
+	font-size:24px;
+	color:#ff7301
+}
+.xtesttext {
+	color:#666666;
+	font-size:16px;
+}
+.xtestmoneyf1 p {
+	line-height:40px;
+}
+.xtestextlink {
+	background:#6c54b6;
+	font-size:16px;
+	color:#fff;
+	padding:5px 10px;
+	border-radius: 3px;
+	margin-left:35px;
+}
+.xtestfont span, .xtestlink a {
+	padding-left:40px;
+}
+.xtestfont .zzno{padding-left:0;}
+.xtesteye {
+	padding-left:30px;
+}
+.xtestmoneyfont {
+	border-bottom: 1px solid #eeeeee;
+	padding-bottom: 40px;
+}
+.xwealicon {
+	background:url(http://image.kuaikuaidai.com/static/images/mycenter/zsaction.png) no-repeat;
+	padding-left:40px;
+	color:#666666;
+	font-size:16px;
+}
+.ztyb{background:url(http://image.kuaikuaidai.com/static/images/mycenter/ztyb.png) no-repeat;}
+.ztyb1{background:url(http://image.kuaikuaidai.com/static/images/mycenter/ztyb1.png) no-repeat;}
+.xmoreweal {
+	color:#666666;
+	font-size:14px;
+	position:absolute;
+	right:0;
+}
+.xwealtitle {
+	position:relative;
+	margin-top:40px;
+}
+.xwealcard {
+	width:270px;
+	height:135px;
+	background:#badeee;
+	border-radius:3px;
+	margin-right:18px;
+}
+.xwealcardtitle {
+	height:40px;
+	line-height:40px;
+	background:#a9d8ec;
+	font-size:16px;
+	border-top-right-radius:2px;
+	border-top-left-radius:2px;
+	color:#fff;
+	padding-left:25px;
+}
+.xwealbody {
+	margin-top:30px;
+	padding-bottom:40px;
+	border-bottom: 1px solid #eeeeee;
+}
+.xwealcardfont span {
+	color:#55a6cb;
+	font-size:34px;
+}
+.xwealcardfont {
+	font-size:18px;
+	color:#55a6cb;
+	padding-top:10px;
+	padding-left:25px;
+}
+.xwealcardata {
+	color:#fff;
+	font-size:12px;
+	padding-left:25px;
+}
+.xwealcardata a {
+	color:#fff;
+	background:#7ec1df;
+	border-radius:3px;
+	font-size:16px;
+	padding:3px 6px;
+	margin-left:20px;
+}
+.xwealcard2 {
+	background:#b4e4e4
+}
+.xwealcard2 .xwealcardtitle {
+	background:#9fdddd
+}
+.xwealcard2 .xwealcardfont, .xwealcard2 .xwealcardfont span {
+	color:#59b8b8
+}
+.xwealcard2 .xwealcardata a {
+	background: #6ec6c6;
+}
+.xwealline {
+	border:1px solid #e4e4e4;
+}
+.xwealinetitle {
+	color:#666666;
+	background:#f0eef6;
+	padding:14px 30px;
+	font-size:16px
+}
+.mycentertcoupon {
+	margin-top:40px;
+	margin-bottom:0px;
+}
+.mycentertcoupon .inver_not{ border:none; margin-top:70px;}
+.xtestmoneyf1 {
+	width:420px;
+	position:relative;
+}
+.xtesttext .xmytest {
+	background: url(http://image.kuaikuaidai.com/static/images/mycenter/accbal.png) no-repeat scroll;
+	padding-left: 40px;
+}
+.xtesttext .zdicop{background:url(http://image.kuaikuaidai.com/static/images/mycenter/zdicop.png) no-repeat;}
+.xtesttext .zearn{background:url(http://image.kuaikuaidai.com/static/images/mycenter/zearn.png) no-repeat;}
+.xtesttext .zfir3{background:url(http://image.kuaikuaidai.com/static/images/mycenter/zfir3.png) no-repeat;}
+.xtestextlink {
+	background:#6c54b6;
+	font-size:16px;
+	color:#fff;
+	padding:5px 10px;
+	border-radius: 3px;
+	margin-left:35px;
+}
+.xtestfont span, .xtestlink a {
+	padding-left:40px;
+}
+.xtesteye {
+	padding-left:30px;
+}
+.mycentertcoupon .xtestmoneyfont {
+	border-bottom: none;
+	padding-bottom: 40px;
+}
+.xpersonlendtitle {
+	margin-top:40px;
+	font-size:16px;
+	color:#666666;
+	position: relative;
+}
+.xpersonlendtitle span, .xpersonlendtitle a {
+	padding-left:4px;
+	padding-right:5px;
+}
+.accbolright {
+	margin-bottom:70px;
+	min-height:642px; 
+	padding-bottom:40px;
+}
+.accbolright .msgperson,.accbolright .megall{ padding:0}
+.xpersonlendtitle a {
+	color:#6c54b6;
+	font-size:14px;
+	position: absolute;
+	right: 0;
+	top:20px;
+	text-decoration: underline;
+	top:0;
+}
+.xpersonlendarea {
+	width: 266px;
+	height:350px;
+	border:1px solid #eeeeee;
+	border-radius:3px;
+	position:relative
+}
+.left {
+	float:left
+}
+.xpersonlend {
+	margin-bottom:0px;
+}
+.xpersonlendarea {
+	margin: 45px 10px 0 8px;
+}
+.xpersonareatitle {
+	font-size:14px;
+	height:50px;
+	line-height:50px;
+	background:#f0eef6;
+	border-top-right-radius:2px;
+	border-top-left-radius:2px;
+	text-align:center;
+	color:#666666
+}
+.xpersonlendarafont {
+	font-size:14px;
+	color:#666666;
+	text-align:center
+}
+.xpersonlendarafont .xlendtext {
+	margin-top:25px;
+	font-size:14px;
+	color:#666666;
+	text-align:center
+}
+.xpersonlendarafont .xlendfont {
+	font-size:24px;
+	color:#ff7301;
+	margin-top:10px;
+}
+.xlendli {
+	margin-top:15px;
+}
+.xlendli ul li {
+	color:#666666;
+	font-size:14px;
+	margin:0 15px;
+	border-bottom:1px solid #eeeeee;
+	height:45px;
+	line-height:45px;
+	padding-left:15px;
+}
+.xlendli ul li:last-child {
+	border-bottom:none;
+}
+.xlendli ul li span {
+	color:#999999
+}
+.xlendbtn {
+	cursor:pointer;
+	height:50px;
+	line-height:50px;
+	background:#ffa750;
+	position:absolute;
+	bottom:0;
+	font-size:16px;
+	color:#fff;
+	width: 100%;
+	text-align: center;
+	border-bottom-right-radius:2px;
+	border-bottom-left-radius:2px;
+}
+.xpersonlendpay .xlendbtn {
+	background:#56c3c0
+}
+.xpersonlendtitle span {
+	background:url(static/images/mycenter/accbal.png) no-repeat scroll;
+	padding-left:40px;
+}
+.xpersonlendtitle {
+	margin-top:40px;
+	font-size:16px;
+	color:#666666;
+	position: relative;
+}
+.xpersonlendtitle span, .xpersonlendtitle a {
+	padding-left:4px;
+	padding-right:5px;
+}
+.xpersonlendtitle a {
+	color: #6c54b6;
+	font-size: 14px;
+	position: absolute;
+	right: 0;
+	text-decoration: underline;
+}
+.xpersonlendtitle span {
+	background: url(http://image.kuaikuaidai.com/static/images/mycenter/accbal.png) no-repeat scroll;
+	padding-left: 40px;
+}
+.xpersonlendtitle .zsacz{background:url(http://image.kuaikuaidai.com/static/images/mycenter/zsaction.png) no-repeat;}
+.zdope span{background:url(http://image.kuaikuaidai.com/static/images/mycenter/dope.png) no-repeat scroll;}
+.zhacion span, .zfirti{background:url(http://image.kuaikuaidai.com/static/images/mycenter/zhacion.png) no-repeat scroll;}
+.zloico span{background: url(http://image.kuaikuaidai.com/static/images/mycenter/zloico.png) no-repeat scroll;}
+.xpersoncoinum {
+	color:#ff7301;
+	font-size:14px;
+	padding-left: 40px;
+	padding-top:20px;
+	padding-bottom:40px;
+	/*border-bottom: 1px solid #eeeeee;*/
+}
+.xpersoncoinum strong {
+	font-size:24px;
+}
+.titlecoin {
+	height:55px;
+	line-height:55px;
+	border-bottom: 1px solid #eeeeee;
+	margin-bottom:27px;
+}
+.titlecoin .active {
+	color:#6c54b6;
+}
+.xpersoncoin .titlecoin .active {
+	color:#6c54b6;
+	border-bottom:2px solid #543c9f;
+}
+.titlecoin a {
+	color:#999999;
+	font-size:16px;
+	min-width:95px;
+	text-align:center;
+	display:inline-block;
+}
+.coincard {
+	margin-right: 18px;
+	border: 1px solid #e5e5e5;
+	background:#f5f5f5;
+	width:410px;
+	height:205px;
+	border-radius:3px;
+	padding-top:20px;
+	margin-bottom:38px;
+	color:#fff
+}
+.coincard p {
+	color:#ffa757
+}
+.coincardbd {
+	background: url(http://image.kuaikuaidai.com/static/images/mycenter/dixian.png) no-repeat scroll;
+	width:401px;
+	height:132px;
+}
+.coincardmoney {
+	padding-top: 28px;
+}
+.coincardmoney span {
+	font-size:40px;
+}
+.coincardmoney {
+	font-size:24px;
+	color:#fff
+}
+.font12 {
+	font-size:12px;
+}
+.font18 {
+	font-size:18px;
+}
+.coincardleft {
+	width:140px;
+	text-align:center
+}
+.coincardleft p {
+	line-height:40px;
+}
+.coincardright {
+	width:250px;
+	font-size:24px;
+	margin-top:40px;
+	position: relative;
+}
+.coincardright p {
+	text-align:left; padding-left:18px;
+}
+.coincardright .cou_xzz{font-size:14px; position: absolute; left:0; top:26px;}
+.left {
+	float:left
+}
+.coincardrightfont {
+	margin-bottom:30px;
+}
+.coincard .coincardleft p, .coincard .coincardright p {
+	color:#fff
+}
+.coincardfonts {
+	height:70px;
+	line-height:70px;
+	position:relative
+}
+.coincardfonts a.coincardbtn {
+	position: absolute;
+	top: 14px;
+	height: 32px;
+	line-height: 32px;
+	border-radius: 3px;
+	font-size:14px;
+	color: #fff;
+	right: 28px;
+}
+.coincardfonts a {
+	padding:0px 20px;
+	background:#ffa757
+}
+.coincardpic {
+	padding-left:23px;
+}
+.coincardpic img {
+	vertical-align: -10px;
+	margin-right:10px;
+}
+.mycentertcoupon .card1, .mycentertcoupon .card2, .mycentertcoupon .card3, .mycentertcoupon .card4, .mycentertcoupon .card5 {
+	color:#fff;
+	margin-bottom:40px;
+	margin-right: 29px;
+}
+.mycentertcoupon .titlecoin {
+	border-bottom:none
+}
+.card1 .coincardbd {
+	background: url(http://image.kuaikuaidai.com/static/images/mycenter/dixian.png) no-repeat scroll;
+}
+.card2 .coincardbd {
+	background: url(http://image.kuaikuaidai.com/static/images/mycenter/fanxian.png) no-repeat scroll;
+}
+.card3 .coincardbd {
+	background: url(http://image.kuaikuaidai.com/static/images/mycenter/jiaxi.png) no-repeat scroll;
+}
+.card4 .coincardbd {
+	background: url(http://image.kuaikuaidai.com/static/images/mycenter/jiaxiold.png) no-repeat scroll;
+}
+.card5 .coincardbd {
+	background: url(http://image.kuaikuaidai.com/static/images/mycenter/card5.jpg) no-repeat scroll;
+}
+.cointabletable table {
+	width:100%;
+	border:1px solid #e4e4e4;
+	border-collapse:collapse;
+	border-spacing:0;
+	margin-bottom:20px
+}
+.cointabletable table th {
+	text-align: left;
+	font-size:14px;
+	color:#666666;
+	background:#f0eef6;
+	padding:15px 0;
+	padding-left:45px;
+}
+.cointabletable table td {
+	font-size:14px;
+	color:#666666;
+	padding:20px 0;
+	padding-left:45px;
+	border-bottom:1px solid #e4e4e4
+}
+.mycentertcoupon .titlecoin a {
+	font-size:14px;
+	color:#666666;
+	margin-right:30px;
+}
+.mycentertcoupon .titlecoin a.active {
+	font-size:14px;
+	background:#6c54b6;
+	color:#fff;
+}
+.mycentertcoupon .titlecoin {
+	height:23px;
+	line-height:23px;
+}
+.titlecoin a {
+	min-width:60px;
+	border-radius:3px;
+}
+.cardold {
+	background: url(http://image.kuaikuaidai.com/static/images/mycenter/guoqi.png) no-repeat scroll;
+	position: absolute;
+	top: 10px;
+	width: 114px;
+	height: 115px;
+	right: 23px;
+}
+.cardolduse{
+	background: url(http://image.kuaikuaidai.com/static/images/mycenter/useold.png) no-repeat scroll;
+}
+.card4, .card1, .card2, .card3, .card5 {
+	position:relative;
+}
+.mycentertcoupon select {
+	margin-right:0;
+	padding-left:10px;
+	height:31px;
+	line-height:28px;
+	font-size: 14px;
+	border: 1px solid #dfdfdf;
+	color: #999999;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	padding-right: 12px;
+	background: url(http://image.kuaikuaidai.com/static/images/mycenter/down.png) no-repeat scroll right center transparent;
+}
+.mycentertcoupon .mycentertcouponbox {
+	position:relative
+}
+.couponselect {
+	position:absolute;
+	right:30px;
+	top:0;
+	  z-index: 9999;
+}
+.zcougz{height:260px; border:1px solid #f0ebe4; background:#f5f5f5; color:#807f7f; font-size:14px; padding:40px 50px 0; box-sizing:border-box; margin-bottom:60px;}
+.zcougz h3{font-size:16px; color:#333; margin-bottom:15px;}
+.zcougz p{padding-left:5px; line-height:30px;}
+.arrowpic {
+	background:url("http://image.kuaikuaidai.com/static/images/managingMoney/arrow.png") bottom center no-repeat;
+	width:19px;
+	height:16px;
+	display: inline-block;
+	vertical-align: -2px;
+}
+/*��������*/
+.cointabletable {
+	/*border:1px solid #e4e4e4;*/
+}
+.messagecenter .xpersonlendtitle a {
+	background:#eceaf2;
+	border:1px solid #bec7d2;
+	color:#666666;
+	text-decoration:none;
+	padding:3px 5px;
+	top:0;
+}
+.messagecenter .xpersonlendtitle {
+	margin-bottom:25px;
+}
+.letter .msgbook {
+	background: url(http://image.kuaikuaidai.com/static/images/mycenter/msgbookon.png) no-repeat scroll;
+	width: 18px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: -3px;
+	margin-right: 32px;
+}
+.msgbook {
+	background: url(http://image.kuaikuaidai.com/static/images/mycenter/msgbook.png) no-repeat scroll;
+	width: 18px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: -3px;
+	margin-right: 32px;
+}
+/* .msgbookon {
+	background: url(http://image.kuaikuaidai.com/static/images/mycenter/msgbookon.png) no-repeat scroll;
+	width: 18px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: -3px;
+	margin-right: 32px;
+} */
+.msgdown {
+	background: url(http://image.kuaikuaidai.com/static/images/mycenter/d1.png) no-repeat center center scroll;
+	  height: 15px;
+  display: inline-block;
+
+  cursor: pointer;
+  line-height: 15px;
+  width: 50px;
+}
+.pos {
+	position:absolute
+}
+.d1 .msgdown {
+	background: url(http://image.kuaikuaidai.com/static/images/mycenter/d2.png) no-repeat center center scroll;
+}
+.d2 .msgdown {
+	background: url(http://image.kuaikuaidai.com/static/images/mycenter/dno.png) no-repeat center center scroll;
+	cursor:default;
+}
+.cointabletitle {
+	color:#666666;
+	background:#f0eef6;
+	font-size:14px;
+	padding:15px;
+	padding-left:40px;
+}
+.w200 {
+	width:180px;
+}
+.w370 {
+	width:335px;
+}
+.w185 {
+	width:185px
+}
+.w200.pd75 {
+	width: 130px;
+	padding-left: 50px;
+}
+.cointablebody {
+	font-size:14px;
+	color:#666666;
+	padding:20px 15px;
+	border-bottom:1px solid #ebebeb;
+	padding-left:40px;
+}
+.happycoin:last-child .cointablebody {
+
+}
+.zfrideg .cointablebody{border-bottom:0;}
+.cointablebody:last-child {
+	border-bottom:none;
+}
+.happycoin .zzbor{}
+.messagefont {
+	border-bottom: 1px solid #e4e4e4;
+	background:#f5f5f5;
+	font-size:14px;
+	color:#999999;
+	padding:20px 70px;
+	line-height:23px;
+}
+.zfrideg{padding:0;}
+.messagefonttitle {
+	color:#666666;
+	text-align:center;
+}
+.messagefontfooter {
+	text-align:right
+}
+.messagecenter .megall {
+	margin-bottom:25px;
+}
+.xpersoncoin .titlecoin .active {
+	border-radius:0;
+	color:#543c9f
+}
+.xpersoncoin .titlecoin a {
+	color: #999999;
+	font-size: 16px;
+	min-width: 95px;
+	text-align: center;
+	display: inline-block;
+	  margin-right: 20px;
+}
+.centercointable {
+  border: 1px solid #e4e4e4;
+}
+.centerbid .regularp1 span{ font-size:14px; color:#ff7301;  text-align: left;}
+.centerbid .regularp1,.centerbid .regularp2 { font-size:12px; color:#999999; margin-top:14px;}
+.centerbid .regularp2 { text-align:center}
+.centerbid .regularp2.centerbid3{  margin-top: 18px;}
+.centerbid .regularp1 .regularshouyi{ font-size:24px; color:#ff7301; }
+.centerbid{ padding:25px 30px;}
+.centerbid .regularfont{ font-size:20px; color:#666666}
+.centerbid1{ width:170px; text-align: left;}
+.centerbid2.regularp2{ width:85px; text-align: left;  margin-top: 20px;}
+.centerbid5{margin-left: 80px;
+  margin-top: 12px;}
+.centerbid3{ width:240px;}
+.processingbar2 {
+  margin: 0;
+  text-align: center;
+  position: relative;
+  width: 70px;
+}
+.processingbar2 font {
+  color: #dfb14f;
+  display: block;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 12px;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.zmxbtn{display:inline-block; height:28px; line-height:28px; width:64px; font-size:14px; box-sizing:border-box; padding:0; text-align:center;}
+.testbid table{ width:100%}
+.testbid table td{ padding-left:27px;}
+.testbid .bidtestmoney td{ padding-left:0px;}
+.testbid .bidtestmoney .pdl10.zb1{ padding-left:27px;}
+.testbid table td img{ margin-right:5px;}
+.centerbid5 a{ font-size:14px; border-radius:3px; display:inline-block; background:#6c54b6; color:#fff; width:144px; height:42px; text-align:center; line-height:42px;}
+.centerbid6 a{background:#cdcdcd;}
+/*������ѹ��򼰽���*/
+.xwealtitle{ margin-bottom:30px;}
+.mycenterrule .xmoreweal{ color:#6c54b6; text-decoration:underline;}
+.mycenterrulebox .ruleboxtitle{ color:#666666; font-size:14px; margin-bottom:15px;}
+.mycenterrulebox ul li{ margin-left:20px; line-height:22px;}
+.mycenterrulebox ul li,.mycenterrulebox p{  list-style: decimal;color:#999; font-size:14px;}
+.mycenterrulebox .ul{ margin-bottom:20px;}
+.rulebeizhu{ margin-left:20px;}
+/*������ϸ����*/
+.testdetail table{ width:100%;  border-collapse: collapse;border-spacing: 0; border:1px solid #e4e4e4}
+.testdetail table td{ font-size:14px; color:#666666; border-bottom:1px solid #e4e4e4; padding:20px; text-align:center}
+.testdetail table th{ font-weight:normal; background:#f0eef6; padding:15px 20px; font-size:14px; color:#666666; border-bottom:1px solid #e4e4e4;  text-align:center}
+/*�ҵĽ��*/
+.paydetail{ background:#f5f5f5; border:1px solid #e8e8e8; padding:33px 43px; position:relative}
+.paydetail p{ font-size:14px; color:#666666; line-height:30px;}
+.paydetail p.lendpay{ font-size:28px; color:#ff7301; margin-top:15px;}
+.paydetail p.lendpay span{ font-size:14px;}
+.paydetail p label{ color:#333333}
+.paydetail .payline1{ width:200px; border-right:1px solid #e8e8e8}
+.paydetail .payline2{ width:285px;border-right:1px solid #e8e8e8}
+.payline2 p,.payline3 p{ margin-left:35px}
+.lendtext{ position:absolute; right:15px; bottom:20px; }
+.lendpagein .lendtext{ position:absolute; right:15px; bottom:-15px; }
+.lendtext a{ color:#999999; font-size:12px;}
+.mycenterrule .xwealtitle{ margin-bottom:30px;}
+.lendpayabout{   cursor: pointer;font-size:14px; color:#6c54b6; float:right; text-decoration:underline}
+.paydetailtable{ width:100%; font-size:14px; color:#666666; border:1px solid #e4e4e4}
+.paydetailtable span{ display:inline-block;text-align:center}
+.paytabletitle{ background:#f0eef6; padding:15px 0;}
+.tablebody1{ width:115px; text-align:center}
+.tablebody2{ width:170px;}
+.tablebody3{ width:280px;}
+.tablebody4{ width:150px;}
+.tablebody5{ width:120px;}
+.paytablebody span{ padding:20px 0;}
+.paytablebody p{ border-bottom:1px solid #eeeeee}
+.paytablebody p:last-child{ border-bottom:none}
+.refund{ background:#ffa750; color:#fff;   padding: 6px 0px; min-width:70px; display:inline-block; border-radius:3px;}
+.refundno{ background:#cdcdcd; color:#fff;   padding: 6px 0px; min-width:70px;display:inline-block;  border-radius:3px;}
+.payold{ background:#eeeeee; width:100%; text-align:center; padding:20px 0}
+.zzgrey .xlendbtn{background:#cdcdcd;}
+.mybomb .dialogamount{background:#fff;}
+.mybomb .dialogamount span{margin-left:0;}
+/*���п�*/
+.bankno{ color:#666666; font-size:14px; text-align:center; line-height:40px; padding:60px 0 50px 0;}
+.zcarfill li.bankwarn{ margin-bottom:0;}
+.bankwarn a{ font-size:12px; color:#999999; margin-left:251px;}
+.paymoneybox{ margin-top:35px;}
+.explainbank { background:#f5f5f5; border:1px solid #f0ebe4; padding:40px 50px; margin-bottom:50px;}
+.explainbank .explainbanktitle{ color:#333333; font-size:16px; margin-bottom:20px;}
+.explainbank p{ font-size:14px; color:#807f7f; line-height:25px;}
+.zcarfill em.remainmoney{ color:#666666;  padding-left: 0;}
+.zcarfill .input {
+  border: 1px solid #e4e4e4;
+  float: left;
+  width: 318px;
+  height: 47px;
+  line-height: 47px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  color: #999;
+  border-radius: 3px;
+}
+.input input{width: 254px;
+  margin-right: 19px;
+border:none;
+height:45px;
+}
+.xlendbtn .centerlendbid a{ color:#fff;  width: 264px;display: inline-block;}
+.mycentertcoupon .titlecoin a {
+	font-size:14px;
+	color:#666666;
+	margin-right:30px;
+}
+.mycentertcoupon .titlecoin a.active,.mycenterrule .titlecoin a.active{
+	font-size:14px;
+	background:#6c54b6;
+	color:#fff;
+}
+.mycenterrule .titlecoin a{ margin-right:20px; font-size:14px;}
+.mycenterrule .titlecoin a.active{
+	padding:2px 5px;
+	font-size:14px;
+}
+.mycentertcoupon .titlecoin,.mycenterrule .titlecoin {
+	height:23px;
+	line-height:23px;
+}
+.mycenterrule .titlecoin {
+	border-bottom:none;
+}
+.nobank{
+	margin-left:35px;
+}
+.zvercode,.zbkimg{position:relative;}
+.zvercode img{position:absolute; left:457px; top:17px; display:none;}
+.zbkimg img{position:absolute; left:350px; top:17px; display:none;}
+/* ��ֵ/�����Ѱ� */
+.zrecha{border-bottom:1px solid #eee;}
+.zrejin .zfirtic{background:url(http://image.kuaikuaidai.com/static/images/mycenter/rejin.png) no-repeat;}
+.zrejin .wholecards{top:213px;}
+.zquota{padding-bottom:50px; text-align:center;}
+.zquota p{font-size:14px; color:#666; text-align:center; margin-bottom:25px;}
+.zwals{border:1px solid #e4e4e4; float:left; width:318px; height:47px; line-height:47px; box-sizing:border-box; padding-left:10px; color:#999; border-radius:3px; background:url(http://image.kuaikuaidai.com/static/images/mycenter/zcarna.png) no-repeat 270px 0;}
+.zhdr{position:relative;}
+.zhdr b{font-weight:normal;}
+.zhdr p{font-size:12px; position:absolute; left:251px; top:40px; color:#999;}
+.zcarfill li .ztips{position:absolute; left:256px; top:50px; padding-left:0; height:20px; line-height:20px;}
+#userPicForm{  text-align: right;
+  margin-top: -18px;
+  margin-right: 9px;}
+.fontleft1{ font-size:16px;}
+.fontleft2{ font-size:14px; margin-top:19px;}
+#coinChangeList .cointable{width: 100%;
+  margin-top: 0;}
+#coinChangeList .cointable{  border-top: 1px solid #e4e4e4;border-left: 1px solid #e4e4e4;border-right: 1px solid #e4e4e4;}
+#coinChangeList .cointable td,#coinChangeList .cointable th{  text-align: left; font-size:14px;  color: #666666;border-right:none;  padding: 5px 0;  padding-left: 30px; border-bottom:1px solid #ebebeb }
+#bbinTradeList table th{  padding: 0;  line-height: 47px;
+  height: 47px; background:#f0eef6}
+#poilist .tabley tr th.pdl10{ padding-left: 27px;}
+#poilist .tabley tr th{padding: 0;  line-height: 47px;height: 47px; background:#f0eef6; }
+#bbinTradeList table td{ height:58px; line-height:58px; padding:0}
+input.borderline:focus {
+  border: solid 1px #904ecb;
+}
+.zvercode .zcodebtnbd{ background:#6c54b6; color:#fff;}
+.coincardrightfont{ font-size:16px;}
+.coincardleft p.font18{ line-height: 15px;}
+.coincardmoney {
+  padding-top: 22px;
+}
+.zcoincardmoney {
+  padding-top: 30px;
+  padding-bottom:5px;
+}
+.coinnone p.zfirtic{ font-size:16px;}
+.paytablebody div{  text-align: center;
+  padding: 111px;
+}
+#personlend .nolend{ margin-top:178px;}
+.xpersontestmoney span.zeye{ top:8px;}
+#centermessagetable{ border-bottom:none;}
+.w100{  width: 100px;
+  text-align: center;}
+  .xtpale{padding-left:40px;}
+  /*�������ĵ���*/
+#zglbtn{color:#6c54b6;}
+.mybomb{width:540px; height:468px; margin-left:-270px; margin-top:-190px; padding:0 46px; box-sizing:border-box;}
+.mybomb h3{font-size:20px; font-weight:bold; color:#666; margin-top:10px; height:70px; line-height:70px; text-align:center; border-bottom:1px solid #e4e4e4;}
+.mybomb p{font-size:14px; color:#666; line-height:24px; margin-top:20px;}
+.mybomb a{display:inline-block; width:129px; height:43px; line-height:43px; text-align:center; background:#6c54b6; border-radius:3px; margin:35px 0 0 156px; font-size:16px; color:#fff;}
+#mygoldbox .mybomb{height:374px; margin-top:-187px;}
+.zgolp{padding-top:40px;}
+.mybomb .zgolp p{margin:0; float:left; width:428px; line-height:28px;}
+.mybomb .zgolp span{float:left; line-height:28px; color:#666;}
+.mydayoutsec{width:430px; padding:0 40px; box-sizing:border-box; height:280px; margin-left:-215px; margin-top:-180px;}
+.mydayoutsec h3{font-weight:bold; padding-left:104px; margin-top:10px; font-size:20px; color:#6c54b6; height:80px; line-height:80px; border-bottom:1px solid #e4e4e4;}
+.mydayoutsec h3 img{margin-right:20px;}
+.mydayoutsec p{height:90px; line-height:90px; text-align:center; font-size:16px; color:#666;}
+#myngeno p{height:auto; line-height:35px; margin-top:20px;}
+.mydayoutsec a, .mydayoutpub a{display:inline-block; margin:10px 0 0 30px;; border-radius:3px; width:129px; height:43px; line-height:40px; text-align:center; background:#6c54b6; border:1px solid #6c54b6; box-sizing:border-box; font-size:16px; color:#fff;}
+.mydayoutsec .ztinu{background:#fff; color:#6c54b6; margin-left:25px;}
+.mydayoutpub{width:430px; height:238px; margin-left:-215px; margin-top:-119px;}
+.zmydayoutpub{padding:0 20px; box-sizing:border-box;}
+.mydayoutpub h3{height:140px; line-height:140px; text-align:center; font-size:18px; color:#6c54b6; font-weight:bold;}
+.zmydayoutpub h3{line-height:20px; padding-top:40px; box-sizing:border-box;}
+.mydayoutpub img{margin-right:20px;}
+.mydayoutpub a{display:block; margin:0 auto;}
+#loadingbox .zcarried{min-height:185px; height:185px; margin-top:-92px;}
+#mydzbox a{margin-left:110px;}
+.myrepaybox{width:662px; height:392px; margin-left:-331px; margin-top:-196px;}
+#myrepaybox .myrepaybox{height:auto;}
+.myrepaybox img{float:right; margin-top:20px; margin-right:-22px; cursor:pointer;}
+.zrecont{padding:35px 0 30px 0; border-bottom:1px dashed #e4e4e4;}
+.zrecont p{font-size:14px; color:#666; margin-top:0; line-height:42px;}
+.zrecont .zhei{color:#ff7301; font-size:24px;}
+.zrecont .zhei1{color:#999;}
+.myrepaybox .zcoulan{color:#666; font-size:14px; margin-top:25px; display:inline-block;}
+.zcoulan span{color:#ff7301; font-size:20px;}
+.myrepaybox .zcolow{float:right; width:199px; height:43px; line-height:43px; text-align:center; background:#ffa750;}
+.myrepaybox .zpaymebtn{float:right; margin-top:15px;}
+/*��󵯿�*/
+#mybaca p{line-height:40px; height:40px;}
+.zmyfi{margin-top:45px;}
+/**/
+#poilist .tabley tr .pdl27{ padding-left:27px;}
+#poilist .tabley tr .pdl27{ width:150px}
+.pdl27 a{  text-decoration: underline;}
+.xpersonlendtitle a.acquire{  top: 21px;}
+.happyreturn{   color: #6c54b6;
+  font-size: 14px;
+  float: right;
+  text-decoration: underline;
+  background: none;
+  width: initial;  margin-right: 5px;}
+.coreturn{  margin-top: -63px; }
+.zreca .zwbtn:hover{ background:#4089db;}
+.zreca .zdrawabtn:hover{background:#e05656;}
+.zreca .zwbtn.xzwbtn:hover{background:#543c9f}
+.zreca .zwbtn.xzwbtn.tuoutbtn:hover{background:#fff}
+.zearn .zwbtn:hover{background:#543c9f;}
+
+.friendlike{ border:none;}
+.friendlike .happycoin{ border: 1px solid #e4e4e4;}
+.friendlike .cointabletitle{border-top: 1px solid #e4e4e4;border-left: 1px solid #e4e4e4;border-right: 1px solid #e4e4e4;}
+.zsig .sigbtn:hover{  background-color: #543c9f;}
+.xwealtitle1{   margin-bottom: 0px; }
+.centerbid5 .testdjs{background-color:#ffa757}
+.centerbid5 .testdjs:hover{background-color:#ff8826}
+.input input#amount{ padding-top:10px;  height: 30px;  line-height: 30px;}
+#tradeType option{padding-left:10px;}
+.mycentertcoupon #coufir a{  margin-right: 10px;}
+.mycentertcoupon #couponbox{  padding-top: 14px;}
+.zintip{-webkit-box-shadow: 0 0 0px 1000px white inset;
+border: 1px solid #e4e4e4!important;
+background-color:#fff!important;}
+/*邀请好友*/
+.friendtable table{ margin-bottom:30px; width:100%; font-size:14px; border:1px solid #e4e4e4; border-bottom:none;}
+.friendtable table th{ background:#f0eff7; height:46px; line-height:46px; color:#666666;}
+.friendtable table td{ height:60px; line-height:60px;color:#666666; border-bottom:1px solid #e4e4e4}
+.pd55{ padding-left:55px;}
+.hasfriend{width:55px; height:10px; display:inline-block;}
+.iconf{   cursor: pointer;background:url(http://image.kuaikuaidai.com/static/images/mycenter/frd.png) center no-repeat;}
+.pd0{ padding-top:0}
+.invite .record{ width:100%; padding-bottom:0; border-bottom:none;}
+#bisfriend th{ font-size:14px;   background: #f0eff7;
+  height: 46px;
+  line-height: 46px;
+  color: #666666;}
+#bisfriend td{  height: 60px;
+  line-height: 60px;
+  color: #666666;
+  border-bottom: 1px solid #e4e4e4; border-top:none}
+.w65{ padding-left:65px;}
+.friendfirst{position: relative; height:37px;}
+.friendfirst a{  position: absolute;
+  right: 0; font-size:14px; color:#6a51b7;  text-decoration: underline;}
+.yanse{ background:#f2f0f5; }
+.friendtable table  .yanse td{color:#6953b7}
+.friendtable table  .yanse .iconf{ background:url(http://image.kuaikuaidai.com/static/images/mycenter/frdcurremt.png) center no-repeat}
+.textcenter{ text-align:center;  padding: 29px;}
+background-color:#fff!important;}
+/*交易明细细节修改*/
+.zaherf{cursor:pointer;}
+.zaherf .zt1{background:url(http://image.kuaikuaidai.com/static/images/mycenter/frd.png) no-repeat 35px center; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;     padding-right:5px;}
+.zaherf .zt11{background:url(http://image.kuaikuaidai.com/static/images/mycenter/frdcurremt.png) no-repeat 35px center;}
+.zaherf:hover{color:#6c54b6;}
+
+.zhuanchu .rolleft{  margin: 0 0 35px 0; padding-right:60px;}
+.zhuanchu p.tfilltip{ margin-top:0}
+.zhuanchu .mb20{ padding-left:40px;}
+.zhuanchu p{padding-left:30px;}
+.tabley tr{line-height:normal;  vertical-align:middle;}
+
+.zusejx{font-size:14px; display:block; text-align:center;}
+
+.zriwa{    position: relative;}
+#accountpop {   
+	
+	    right: 220px;
+    width: 390px;
+    height: 121px;
+    position: absolute;
+    background: url(http://image.kuaikuaidai.com/static/images/popaccount.png) no-repeat;
+    top: 9px;
+}
+#accountpop .accountpoptitle{ font-size:16px; color:#666666}
+#accountpop .accountpoptitle span{ color:#ff8111; }
+.accountfont{ font-size:14px; color:#999999}
+.accounts{ font-size:12px; color:#a8a8a8; margin-top:10px;}
+.accountnew{ font-size:12px; color:#ff7301; margin:12px 0 5px 0px;}
+#accountpop p,.accountnew{ padding-left:23px;}
+.accountbag{    position: absolute;
+    right: 36px;
+    top: 16px;}
+.mancardpop{ font-size:18px;  background: url(http://image.kuaikuaidai.com/static/images/manpop.png) no-repeat;    position: absolute;
+    width: 230px;
+    height: 93px;
+        right: 354px;
+    z-index: 9;
+    bottom: -22px;}
+.mancardpop .mancolor{ color:#ff8111; font-size:18px;  margin-top: 0px;}
+.regucont{    position: relative; }
+.regucont .regsec{margin-top:21px; overflow:hidden;}
+.manimg{       margin-left: 13px;
+    margin-top: 23px; position: absolute;  }
+.mancardpop p{ margin-left:75px;    margin-top: 20px; color:#999}
+
+
+.manfrist {
+    border-radius: 3px;
+    width: 463px;
+    height: 620px;
+    background: #fff;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 9999999;
+    margin-left: -231px;
+    margin-top: -310px;
+}
+.manclose{      cursor: pointer;  position: absolute;
+    right: 15px;
+    top: 15px;}
+.ztag p .zdjright{position:absolute; right:0;}
+
+/*快乐币任务弹框*/
+.zhfcoin{width:400px; margin-left:-200px; box-sizing:border-box; margin-top:-307px; height:615px; padding:210px 47px 0 47px; background: url(http://image.kuaikuaidai.com/static/images/managingMoney/zhfcoin.png) no-repeat;}
+.zhfcoin h3{font-size:22px; color:#333; text-align:center;}
+.zhfcoin h4{font-size:20px; color:#999; margin-top:10px; text-align:center;}
+.zhfcoin span{color:#ff5a00;}
+.zhfcoin ul{margin-top:17px; margin-bottom:30px;}
+.zhfcoin li{height:51px; line-height:51px; border-bottom:1px solid #d5d5d5; font-size:18px; color:#666;}
+.zhfcoin li span{color:#ff5a00; float:right;}
+.zrigps img{float:left;}
+.zrigps div{float:right; width:180px;}
+.zrigps p{font-size:16px; color:#333;}
+.zrigps b{font-size:14px; font-weight:normal; color:#999;}
+.zhfcol{position:absolute; right:17px; top:17px; cursor:pointer;}
+.zsig a#addsign{ margin-left: 80px;color: #6c54b6}
+.zsig a.xxbu{margin-left: 0;     color: #666;}
+.zsig a.nobuqian{    margin-left: 105px;}
+#addsignbox .textcenter,.fillcheckbox .textcenter{ text-align:center; font-size:18px; padding:30px 0 ;padding-top:0; border-bottom:1px dashed #e4e4e4}
+.mybomb .textcenter p{font-size:18px; color:#666666}
+.mybomb .textcenter p.pfont16{font-size:16px; color:#999999}
+#addsignbox .mybomb,.fillcheckbox .mybomb{ height:450px;   width: 461px; margin-left:-260px;    margin-top: -250px;}
+#addsignbox ul,.fillcheckbox ul { padding:25px 0}
+#addsignbox ul li,.fillcheckbox ul li{color:#666666; line-height:37px; font-size:16px;
+list-style-position:inside;}
+/*list-style: disc;*/
+.addsignbtn a{ margin:0}
+.addsignbtn a#addsignbu1,.addsignbtn a#addsignbu2,#addsignbuxl{ margin-left:100px;}
+.mybomb a.addsignclo{ background:none; border:1px solid #6c54b6; color:#6c54b6}
+.buqian{     vertical-align: -14px;
+    margin-right: 21px;width:48px; height:42px; display:inline-block; background: url(http://image.kuaikuaidai.com/static/images/buqian.png) no-repeat;}
+#addsignbox h3,.fillcheckbox h3{padding-bottom: 8px;}
+#addsuccessbox .mybomb,.addsuccesstyle .mybomb{ width:368px; min-height:290px;     height: inherit;   margin-left: -168px;}
+#addsuccessbox .addsignbtn,.addsuccesstyle .addsignbtn{    text-align: center; margin-bottom:40px;}
+#addsuccessbox .mybomb h3,.addsuccesstyle .mybomb h3{ padding-bottom:15px;}
+.buqiansu{margin-right: 21px; display:inline-block; width:42px; height:42px;vertical-align: -14px;;  background:url(http://image.kuaikuaidai.com/static/images/managingMoney/ohyear.png) no-repeat}
+#addsuccessbox .mybomb .textcenter p,.addsuccesstyle .mybomb .textcenter p{ font-size:16px; color:#666666}
+#addsuccessbox.mybomb p,.addsuccesstyle.mybomb p{ padding-top:0; line-height:40px;}
+#addsuccessbox .mybomb .textcenter p,.addsuccesstyle .mybomb .textcenter p{margin-top:0; line-height:40px;}
+.buqianwrong{ vertical-align: -14px;
+    margin-right: 21px;width:48px; height:42px; display:inline-block;background: url(http://image.kuaikuaidai.com/static/images/managingMoney/ohno.png) no-repeat;}
+#addwrongbox .mybomb{ width:370px;height:246px;}
+#addwrongbox .mybomb h3{ border:none; margin-top:45px;}
+#addwrongbox .addsignbtn{ text-align:center; margin-top:30px;}
+.fillcheckbox .mybomb{ width:540px;}
+.fillcheckbox .addsignbtn{    text-align: center;}
+.accountnew{    border-radius: 10px;
+    border: 1px solid #ff7301;
+        padding: 2px 10px;
+    margin-left: 23px;}
+.xtipw{ padding-top:0; padding-bottom:20px;}
+#addwrongbox .addsignbtn{margin-top:0}
+#addwrongbox .mybomb{margin-left: -180px;
+    margin-top: -190px;}
+#mysignbox .mybomb{margin-top: -230px;}
+#addwrongbox .mybomb p{ margin-top:8px;}
+.zaherf .zt1{width: 100px;
+    display: inline-block;}
+.surprisepos .surprisebox{     border-radius: 3px;
+    width: 465px;
+    min-height: 188px;
+    /* background: #fff; */
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 9999999;
+    margin-left: -230px;
+    margin-top: -340px;}
+ .manpoptext{    position: absolute;
+    top: 170px;
+    width: 211px;
+    left: 131px;
+    font-size: 18px;
+    color:#ff5a00}
+.card4.newcoupon .coincardbd{
+	    width: 409px;
+    height: 178px;
+	    background: url(http://image.kuaikuaidai.com/static/images/mycenter/newcoupon.png) no-repeat scroll;
+}
+.mycentertcoupon .card4.newcoupon{    margin-right:46px;}  
+.newcoupontitle{     width: 100%;
+	color:#fa8d2e;font-size:28px;top: 34px;
+    position: absolute; left:23px}
+.newcouponcolor{ color:#fa8d2e;}
+.newcouponbox{ color:#999999; font-size:14px;    position: absolute;
+    top: 86px;
+    left: 23px;}
+.newcoupontime{color: #999999;
+    font-size: 14px;
+    position: absolute;
+    bottom: 12px;
+    left: 23px;}
+.newcouponmoney{    position: absolute;
+    font-size: 54px;
+    right: 55px;
+    top: -22px;}
+.newcouponmoney span{ font-size:30px;}
+.newcouponmeng{    width: 409px;
+    height: 178px;
+    z-index: 1;
+    position: absolute;background: url(http://image.kuaikuaidai.com/static/images/mycenter/oldcoupon.png) no-repeat scroll;}
+.newcoupon .cardguoqi{
+	width: 93px;
+    height: 92px;
+    top: -17px;
+    right: -19px;
+    position: absolute;
+    z-index: 99;background: url(http://image.kuaikuaidai.com/static/images/mycenter/newoldcoupon.png) no-repeat scroll;
+}
+.newcouponselect{ right:0}
+.mycentertcoupon #couponbox{ width:920px;}
+.newcoupon .cardolduse{    width: 93px;
+    height: 92px;
+    top: -17px;
+    right: -19px;
+    position: absolute;
+    z-index: 99;background: url(http://image.kuaikuaidai.com/static/images/mycenter/newcouponuse.png) no-repeat scroll;}
+.zregupromar .mancardpop p{ font-size:18px;line-height:18px;    height: 26px;}
+.zregupromar p{ }
+#fillcheckxlang .persondialog.mybomb{    height: 257px;    margin-top: -140px;}
+.xinlang li{text-align: center;}
+#bidagainyesld{ margin-top:40px;}
+#persondialogwrongdl .wrongtip{margin-top:30px;}
+.textli li{       line-height: 21px;  font-size: 14px;
+    color: #666;list-style-type:disc;list-style-position: inside;}
+.input input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+color: #999; 
+} 
+.input input:-moz-placeholder, textarea:-moz-placeholder { 
+color: #999; 
+} 
+.input input::-moz-placeholder, textarea::-moz-placeholder { 
+color: #999; 
+} 
+.input input:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+color: #999; 
+} 
+.paymoneybox input:-webkit-autofill {
+-webkit-box-shadow: 0 0 0px 1000px white inset;
+border: 1px solid #fff!important;
+}
+.zcarfill #wamount{ padding-left:0;}
+.mydayoutpub .xmybcasecbox {
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
+    font-size: 18px;
+    color: #6c54b6;
+    font-weight: bold;
+}
+/* 风险能力评估 */
+.zasswarp{width:1180px; margin:30px auto 0; background:#fff; border:1px solid #e4e3e8; box-sizing:border-box; padding:50px;}
+.zasswarp h2{text-align:center; position:relative; font-size:22px; color:#333; font-weight:normal; margin-bottom:35px;}
+.zasswarp .zassclo{display:inline-block; position:absolute; right:0; top:10px; width:100px; height:30px; line-height:28px; text-align:center; border:1px solid #6c54b6; cursor:pointer; box-sizing:border-box; color:#6c54b6; font-size:14px; margin-top:-8px;}
+.ztopic h3{font-weight:normal; font-size:16px; color:#333; line-height:25px; padding:12px 0 12px 20px; background:#f0eef6; margin:25px 0 20px;}
+.ztopic label{padding-left:30px; font-size:16px; color:#666; height:50px; line-height:50px; display:block;}
+.zoption[type="radio"]{-webkit-appearance:none; width:16px; height:16px; background:url(http://image.kuaikuaidai.com/static/images/mycenter/zoption.png) no-repeat center center / 14px 14px; margin:0 20px 3px 0; outline:0; background:none/9;}
+.zoption[type="radio"]:checked{background:url(http://image.kuaikuaidai.com/static/images/mycenter/zoption1.png) no-repeat center center / 14px 14px;}
+.zassbtn{border:1px solid  #e4e3e8; border-top:0; width:1180px; margin:0 auto 70px; background:#fff; box-sizing:border-box; text-align:center;}
+.zassbtn p{display:inline-block; font-size:16px; text-align:center; width:400px; height:50px; background:#6460be; line-height:50px; color:#fff; margin:15px auto 14px; border-radius:2px; cursor:pointer;}
+#mybcawro h3{color:#666;}
+.myasme{width:540px; height:280px; box-sizing:border-box; margin-top:-140px; padding:0 30px; margin-left:-270px;}
+.myasme .myreclose{position:absolute; cursor:pointer; right:20px; top:20px;}
+.myasme h3{font-size:20px; text-align:center; border-bottom:1px solid #e4e4e4; height:70px; line-height:70px;}
+.myasme p{font-size:16px; color:#666; text-align:center; margin:30px 0 50px;}
+.zsasme{padding:0 85px;}
+.zsasme a{width:125px; height:40px; line-height:40px; text-align:center; font-size:16px; color:#fff; border:1px solid #6c54b6; border-radius:3px; background:#6c54b6;}
+.zsasme .left{background:#fff; color:#6c54b6;}
+/* 测评结果 */
+.zrewarp{width:1180px; margin:0 auto 60px; border:1px solid #e3e3e5; background:#fff; box-sizing:border-box; padding:50px 77px 0;}
+.zresimg{width:1025px; height:330px; background:url(http://image.kuaikuaidai.com/static/images/mycenter/zresimg.png) no-repeat; padding-top:35px; box-sizing: border-box;}
+.zresimg h2{font-size:40px; color:#fff; text-align:center; font-weight:normal; margin:0 0 20px;}
+.zrety{overflow:hidden;}
+.zrety div{width:512px; float:left; box-sizing:border-box; text-align:center; color:#fff;}
+.zrtleft{border-right:1px solid #a4a3e5; padding-left:105px;}
+.zrtright{padding-right:90px;}
+.zrety p{font-size:20px; margin-bottom:5px;}
+.zrety span{display:block; font-size:40px;}
+.zgrebar{background:url(http://image.kuaikuaidai.com/static/images/mycenter/zgrebar.png) no-repeat; width:720px; height:20px; padding-top:10px; margin:40px auto 0; position:relative;}
+.zresd{background:url(http://image.kuaikuaidai.com/static/images/mycenter/zresd.png) no-repeat; width:692px; height:10px; margin-left:14px; border-radius:5px;}
+.zresd p{height:10px; width:30px; background:#ffe400; border-radius:5px;}
+.zresshu{font-size:16px; position:absolute; color:#fff; top:10px;}
+.zresshu b{display:block; border-left:1px solid #fff; height:10px; margin-left:9px; margin-bottom:10px;}
+.zresshu .znoass{border:0;}
+.zresshu2{left:5px;}
+.zresshu4{left:107px;}
+.zresshu5{left:244px;}
+.zresshu6{left:380px;}
+.zresshu8{left:516px;}
+.zresshu1{left:692px;}
+.zpgu{padding:20px 40px; line-height:20px; font-size:14px; color:#666; background:#faf0d2; margin-bottom:50px;}
+.zfxbtn .zacx{display:inline-block; width:400px; height:50px; line-height:50px; color:#fff; font-size:16px; border-radius:2px; text-align:center; background:#6460be; margin:0 40px 15px 315px;}
+.zfxbtn .zacx1{font-size:14px; color:#3c9ce5; text-decoration:underline;}
+.zfxbtn .zacx2{background:#cdcdcd; color:#fff;}
+.zfxbtn div, .zasscs{text-align:center; font-size:14px; color:#999;}
+.zassrul{margin-top:40px; border-top:1px solid #e5e5e5; margin-bottom:70px;}
+.zassrul h3{margin:30px 0 25px; font-size:16px; color:#666; font-weight:normal;}
+.zassrul p{font-size:14px; color:#666; line-height:30px; padding-left:15px; background:url(http://image.kuaikuaidai.com/static/images/mycenter/zassrul.png) no-repeat 0 12px;}
+.zasulwarp{width:1180px; margin:0 auto;}
+.zasul{height:35px; line-height:35px;}
+.zasul a{color:#5c3c9f; font-size:14px;}
+.zpgban{margin-top:40px; display:block;}
+.zasscs{margin-top:5px; color:#ed1a1a;}
+.zscxh{text-align:center; font-size:18px; margin-top:25px;}
+.zertific .zscxh1{margin:20px 0;}
+.zticaback .zlzlef{width:84px; text-align:left; float:left;}
+.zticaback .zlzrig{width:287px; height:32px; margin-right:10px; float:left; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.zdisblo .zzhidd{height:65px; margin-bottom:0;}
+.zinma .zxxx1{color:#666; text-decoration:none;}
