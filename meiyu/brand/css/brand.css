@@ -7,6 +7,7 @@
   width: 1180px;
   margin: 0px auto;
   height: 1354px;
+  font-family:"微软雅黑", Verdana, Arial, Helvetica, sans-serif;
 }
 .brand .brand_top {
   height: 32px;
@@ -40,6 +41,15 @@
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
+  -webkit-transition: -webkit-transform 0.2s;
+                  -moz-transition: -moz-transform 0.2s;
+                  -ms-transition: -moz-transform 0.2s transition: transform 0.2s;
+}
+.brand .brand_middle .brand_middle_left img:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 .brand .brand_middle .brand_middle_right {
   width: 672px;
@@ -152,10 +162,12 @@
   color: #fff;
   font-size: 24px;
   text-align: center;
-  background: #59677c;
+background-color:#59677c;
   line-height: 126px;
   border-left: 1px solid #67768c;
 }
+.brand .brand_bottom .brand_container .brand_main .brand_main_nav .libColor{background-color:#59677c;}
+.brand .brand_bottom .brand_container .brand_main .brand_main_nav .liColor{background-color:#d93636;}
 .brand .brand_bottom .brand_container .brand_main .brand_main_nav li:hover {
   background-color: #d93636;
   cursor: pointer;
@@ -163,6 +175,7 @@
 .brand .brand_bottom .brand_container .brand_main .brand_main_list {
   width: 100%;
 }
+.brand .brand_bottom .brand_container .brand_main .brand_main_list ul{display:none;}
 .brand .brand_bottom .brand_container .brand_main .brand_main_list li {
   height: 141px;
   width: 100%;
@@ -200,6 +213,7 @@
 .brand .brand_bottom .brand_container .brand_main .brand_main_list li dl dd h3 {
   font-size: 16px;
   font-weight: 700;
+  font-family:"微软雅黑", Verdana, Arial, Helvetica, sans-serif;
 }
 .brand .brand_bottom .brand_container .brand_main .brand_main_list li dl dd p {
   margin: 18px 0px 10px;
@@ -273,4 +287,5 @@
   background: #818080;
   border-bottom: 1px solid #999;
 }
+
 /*# sourceMappingURL=brand.css.map */

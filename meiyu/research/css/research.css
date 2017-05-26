@@ -32,7 +32,7 @@
   z-index: 5;
   overflow: hidden;
 }
-.research .research_middle .research_middle_left img {
+.research .research_middle .research_middle_left img  {
   display: block;
   width: 384px;
   height: 266px;
@@ -40,6 +40,15 @@
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
+  -webkit-transition: -webkit-transform 0.2s;
+                  -moz-transition: -moz-transform 0.2s;
+                  -ms-transition: -moz-transform 0.2s transition: transform 0.2s;
+}
+.research .research_middle .research_middle_left img:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 .research .research_middle .research_middle_right {
   width: 672px;
