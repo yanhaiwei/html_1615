@@ -1,14 +1,25 @@
+.zaboutright {
+  height: 1000px;
+}
 .zaboutright .zaboutright_top {
+  height: 600px;
   border-bottom: 1px solid #ececec;
+  padding-bottom: 30px;
 }
 .zaboutright .zaboutright_top h1 {
   font-size: 20px;
   font-weight: 400;
   margin-top: 50px;
 }
-.zaboutright .zaboutright_top img {
-  display: block;
-  margin-top: 20px;
+.zaboutright .zaboutright_top .Ditumap {
+  width: 800px;
+  height: 400px;
+  border: 4px solid #e7e6e6;
+  margin-top: 30px;
+}
+.zaboutright .zaboutright_top .Ditumap #BaiduDitu {
+  width: 800px;
+  height: 400px;
 }
 .zaboutright .zaboutright_top ul {
   padding: 30px 0px;
@@ -21,6 +32,9 @@
   color: #666;
   height: 30px;
   line-height: 20px;
+}
+.zaboutright .zaboutright_bottom {
+  height: 300px;
 }
 .zaboutright .zaboutright_bottom h1 {
   font-size: 20px;

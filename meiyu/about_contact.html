@@ -15,6 +15,7 @@
 	
 </style>
 <script type='text/javascript' src='./head/js/version.js'></script>
+
 <script>
 	addJs(["./head/js/jquery-1.11.1.min.js",'./about/js/mycenter.js']);
 	addCss(['./index/css/comm.css','./index/css/f-content.css','./about/css/kkdai.css','./about/css/base.css','./about/css/safeactivity.css']);</script>
@@ -28,7 +29,7 @@
 </head>
 <body>
 <div id="warp">
-  <script>
+  <!--<script>
   $(function(){
 	  var clientHeight = document.body.clientHeight ;//可见区域高度
 	  var scrollHeight = document.body.scrollHeight;//整个页面高度
@@ -50,7 +51,7 @@
 	  }
 	  });
   });
-  </script>
+  </script>-->
  <!--QQ客服-->
  <div class="hide" id="WPAContainer">
 </div>
@@ -75,13 +76,18 @@
                <li><a href="./about_honor.html">企业荣誉</a></li>
 			   <li><a href="./about_sub.html">子公司介绍</a></li>
 			   <li><a href="./about_zizhi.html">相关资质</a></li>
-			   <li><a href="javascript:;">关于我们</a></li>
+			   <li><a href="javascript:;">联系我们</a></li>
                
           </ul>
      	<div class="zaboutright">
    				<div class="zaboutright_top">
    					<h1>美豫投资总部</h1>
-   					<img src="./about/img/about_contact.png" alt="" />
+   					<div class="Ditumap" style="font-size:14px;">   
+				        <div style="width:800px;height:400px;border:none; " id="BaiduDitu"></div>
+				        <div style="clear:both;"></div>
+			   		 </div>
+   					
+   					
    					<ul>
    						<li>上海总部 ：上海市浦东新区福山路388号越秀大厦8F</li>
    						<li>北京中心 ： 北京朝阳区望京soho T2-1-810室</li>
@@ -91,7 +97,7 @@
    				<div class="zaboutright_bottom">
    					<h1>客户服务</h1>
    					<ul>
-   						<li>电话 ： 4000 —— 137 —— 000 <span>( 9:00 —— 21:00)</span></li>
+   						<li>电话 ： 4000 — 137 — 000 <span>( 9:00 ─ 21:00)</span></li>
    						<li>在线帮助 ：<img src="./about/img/about_contact_qq.png"/>&nbsp&nbsp;<span>(点击与客服在线沟通)</span></li>
    						<li>客服邮箱 ： lixiaomeng@qq.com</li>
    					</ul>
@@ -178,4 +184,6 @@ $(function() {
     });
 });
 </script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=G2rwsLB6Rz55OxQ7RjQCCWe6N0UHMmvA"></script>
+<script type="text/javascript" src="./about/js/baidumap.js"></script>
 </body></html>
