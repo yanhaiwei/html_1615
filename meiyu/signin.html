@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="360-site-verification" content="b58bc28e4d9e114d22b7725b997fb829">
+		<meta property="qc:admins" content="4352507677633116375636"> 
+		<meta property="qc:admins" content="227617227446334116375636">
+		<meta property="qc:admins" content="22761721506351135114116375">
+		<meta name="sogou_site_verification" content="iwNg4ldAoG">
+		<meta charset="UTF-8">
+		<title>美豫投资理财平台-高端理财产品_理财规划师_金融理财公司</title> 
+		<meta name="keywords" content="美豫投资、投资理财平台、理财产品、理财规划师、金融理财">
+		<meta name="description" content="美豫投资网站专业高端投资理财平台从事第三方理财服务、理财机构、美豫投资管理中心为中国高净值客户提供高端理财产品、理财规划师、金融理财，客观中立的理财解决方案，理财规划师帮助理财投资者做出最优化的理财产品选择，让金融理财达到财富长期稳健的保值和增值。">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" media="screen">
+		
+		<link rel="stylesheet" href="./signin/css/signin.css" />
+		<script type='text/javascript' src='./head/js/version.js'></script>
+		<script type='text/javascript' src='./signin/js/jquery-1.11.1.min.js'></script>
+		<script> 
+	addCss(['./signin/css/base.css','./index/css/comm.css','./signin/css/kkdai.css','./signin/css/safeactivity.css']);</script>
+	</head>
+	<body >
+		<div id="warp" style="background-color:#f5f2f2">
+		  <!--<script>
+			  $(function(){
+				  var clientHeight = document.body.clientHeight ;//可见区域高度
+				  var scrollHeight = document.body.scrollHeight;//整个页面高度
+				  var mheight = parseFloat(scrollHeight) - parseFloat(clientHeight);
+				  $(window).scroll(function(){  //只要窗口滚动,就触发下面代码 
+				  if(mheight<140){//防止抖动81+50
+					 return false;
+				  }else{
+					  var scrollt = document.documentElement.scrollTop + document.body.scrollTop; //获取滚动后的高度 
+					  if( scrollt >=50 ){  //判断滚动后高度超过200px,就显示  
+						  $(".nav").addClass("navon").animate({
+					          top: 0
+					      },250);
+					  }else{ 
+						  $(".nav").stop(!0, !0).removeClass("navon").animate({
+					            top: "-81px"
+					        },20);
+					  }
+				  }
+				  });
+			  });
+		 </script>-->
+		 <!--banner-->
+		 
+				
+		<!--内容主要部分-->
+			<div class="signin">
+				<img src="./signin/img/neiye_banner.png" alt="" />
+				<div class="signin_main">
+					
+					<form action="" id="signinform" class="signinform">
+					 <!--手机号-->
+					 <div id="signinphone" class="reister_list xloginline">
+					 	<div class="xlogintext">
+					 		<span class="loginicon loginaccount"></span><i>手机号 ：</i>
+						 	<input type="text" id="phone" class="inputext"/>
+						 	<span class="logintip">请输入手机号 !</span>
+						 	<label for="phone"></label>
+					 	</div>
+					 	
+					 </div>
+					
+					 
+				     <!--登录密码-->
+					 <div id="signinpassword" class="reister_list xloginline">
+					 	<div class="xlogintext">
+					 		<span class="loginicon loginpassword"></span><i>登录密码：</i>
+						 	<input type="text" id="phone" class="inputext"/>
+						 	<span class="logintip">请输入登录密码 !</span>
+						 	<label for="phone"></label>
+					 	</div>
+					 	<!--强弱-->
+					 	<ul class="safe">
+								<li>危险</li>
+								<li class="red_li">弱</li>
+								<li>中</li>
+								<li>强</li>
+								<li>安全</li>
+							</ul>
+					 </div>
+					 <!--同意条款-->
+					 <div id="inres_agreen">
+							<a class="yagreen" href="javascript:;" ></a>我已同意并阅读<a href="javascript:;" class="agreenment">《美豫投资使用协议》</a>
+					</div>
+					<a href="javascript:;" class="con">忘记密码</a>
+				     <input type="submit" value="登录" />
+				    
+						
+					</form>
+				</div>
+				
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(function() {
+			    $.ajax({
+			        type: 'GET',
+			        url: './head/lib/head.html',
+			        data: '_=' + Date.parse(new Date()),
+			        success: function(data) {
+			        	
+			            $('#warp').prepend(data);
+						/*$('.clearfix').find('.nav_curr').removeClass('nav_curr').end().children('li').eq(3).addClass('nav_curr')*/
+			        }
+			    });
+			    $.ajax({
+			        type: 'GET',
+			        url: './head/lib/end.html',
+			        data: '_=' + Date.parse(new Date()),
+			        success: function(data) {
+			            $('#warp').append(data);
+			        }
+			    });
+			  
+			});
+		</script>
+	</body>
+</html>

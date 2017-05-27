@@ -1,0 +1,243 @@
+.inRegister {
+  width: 100%;
+  height: 710px;
+  position: relative;
+}
+.inRegister img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.inRegister .inRegister_main {
+  width: 696px;
+  height: 600px;
+  background-color: #fff;
+  padding: 14px 8px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.inRegister .inRegister_main form {
+  display: block;
+  height: 302px;
+  width: 500px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  padding-top: 70px;
+  padding-left: 40px;
+}
+.inRegister .inRegister_main form #inRegisterphone {
+  width: 440px;
+  height: 50px;
+  margin-bottom: 28px;
+}
+.inRegister .inRegister_main form #testcode {
+  position: relative;
+  margin-bottom: 28px;
+  width: 440px;
+  height: 50px;
+}
+.inRegister .inRegister_main form #testcode .ltestcode {
+  width: 160px;
+  height: 48px;
+  border: 1px solid #e4e4e4;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 4px;
+}
+.inRegister .inRegister_main form #testcode .ltestcode a {
+  display: block;
+  width: inherit;
+  height: inherit;
+}
+.inRegister .inRegister_main form #testcode .ltestcode a img {
+  display: block;
+  height: 48px;
+  width: 100px;
+  float: left;
+}
+.inRegister .inRegister_main form #testcode .ltestcode a span {
+  display: block;
+  width: 60px;
+  height: inherit;
+  background: url(../img/refresh.png) no-repeat center;
+  float: right;
+}
+.inRegister .inRegister_main form #testmsgcode {
+  position: relative;
+  margin-bottom: 28px;
+  width: 440px;
+  height: 50px;
+}
+.inRegister .inRegister_main form #testmsgcode .ltestcode {
+  width: 160px;
+  height: 48px;
+  border: 1px solid #e4e4e4;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 4px;
+}
+.inRegister .inRegister_main form #testmsgcode .ltestcode a {
+  display: block;
+  width: inherit;
+  height: inherit;
+  background-color: #d93636;
+  text-align: center;
+  line-height: 48px;
+  font-size: 16px;
+  color: #fff;
+}
+.inRegister .inRegister_main form #inRegisterpassword i {
+  width: 100px;
+}
+.inRegister .inRegister_main form #inRegisterpassword input {
+  width: 280px;
+  padding-left: 160px;
+}
+.inRegister .inRegister_main form #inRegisterpassword .safe {
+  width: 200px;
+  height: 18px;
+  margin-top: 30px;
+}
+.inRegister .inRegister_main form #inRegisterpassword .safe li {
+  float: left;
+  width: 34px;
+  color: #fff;
+  background-color: #999;
+  margin-right: 6px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  font-size: 14px;
+}
+.inRegister .inRegister_main form #inRegisterpassword .safe li:first-child {
+  color: #666;
+  background-color: #fff;
+}
+.inRegister .inRegister_main form #inRegisterpassword .safe li:last-child {
+  color: #666;
+  background-color: #fff;
+}
+.inRegister .inRegister_main form #inres_agreen {
+  width: 240px;
+  height: 20px;
+  margin-bottom: 5px;
+  line-height: 20px;
+  font-size: 12px;
+  margin-top: 20px;
+}
+.inRegister .inRegister_main form #inres_agreen a {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border-radius: 2px;
+  float: left;
+  margin-right: 10px;
+}
+.inRegister .inRegister_main form #inres_agreen .agreenment {
+  height: 13px;
+  font-size: 12px;
+  width: 120px;
+  float: right;
+  margin-top: none;
+  color: #d93636;
+}
+.inRegister .inRegister_main form #inres_agreen .noagreen {
+  background: url(../img/noagreen.png) no-repeat center;
+  margin-top: 4px;
+}
+.inRegister .inRegister_main form #inres_agreen .yagreen {
+  background: url(../img/yagreen.png) no-repeat center;
+  margin-top: 4px;
+}
+.inRegister .inRegister_main form .con {
+  width: 400px;
+  height: 20px;
+  text-align: right;
+  margin-top: 20px;
+}
+.inRegister .inRegister_main form .con span {
+  color: #d93636;
+}
+.inRegister .inRegister_main form input[type=submit] {
+  display: block;
+  height: 50px;
+  width: 440px;
+  border-radius: 4px;
+  background-color: #d93636;
+  border: 1px solid #d93636;
+  margin-top: 20px;
+  font-size: 26px;
+  color: #fff;
+}
+.inRegister .inRegister_main form .prompt {
+  width: 440px;
+  height: 50px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 50px;
+}
+.inRegister .inRegister_main form .prompt span {
+  color: #d93636;
+}
+.inRegister .inRegister_main .xlogintext {
+  height: 50px;
+  position: relative;
+}
+.inRegister .inRegister_main .xlogintext .loginicon {
+  display: inline-block;
+  width: 47px;
+  height: 49px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-right: 1px solid #e4e4e4;
+  margin-top: 1px;
+}
+.inRegister .inRegister_main .xlogintext .loginaccount {
+  background: url(../img/phone.png) no-repeat center;
+}
+.inRegister .inRegister_main .xlogintext .loginpassword {
+  background: url(../img/password.png) no-repeat center;
+}
+.inRegister .inRegister_main .xlogintext .loginrandom {
+  background: url(../img/suiji.png) no-repeat center;
+}
+.inRegister .inRegister_main .xlogintext .loginmsgrandom {
+  background: url(../img/msg.png) no-repeat center;
+}
+.inRegister .inRegister_main .xlogintext i {
+  display: block;
+  width: 70px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  position: absolute;
+  left: 60px;
+}
+.inRegister .inRegister_main .xlogintext .inputext {
+  display: block;
+  width: 310px;
+  height: 48px;
+  border: 1px solid #e4e4e4;
+  padding-left: 130px;
+  border-radius: 4px;
+}
+.inRegister .inRegister_main .xlogintext .xtestcode {
+  width: 140px;
+}
+.inRegister .inRegister_main .xlogintext .logintip {
+  display: block;
+  height: 28px;
+  line-height: 28px;
+  font-size: 12px;
+  color: #d93636;
+}
+/*# sourceMappingURL=inregister.css.map */
